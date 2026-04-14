@@ -1,0 +1,1538 @@
+2026-04-13 17:47:39.112 | INFO     | __main__:run:125 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 19:10:06.001 | INFO     | __main__:run:125 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 19:10:06.002 | INFO     | core.bilibili_client:login_qrcode:19 - Starting Bilibili QR code login...
+2026-04-13 19:10:06.421 | INFO     | core.bilibili_client:login_qrcode:28 - Waiting for QR code scan...
+2026-04-13 19:25:43.115 | INFO     | __main__:run:125 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 19:25:43.115 | INFO     | core.bilibili_client:login_qrcode:19 - Starting Bilibili QR code login...
+2026-04-13 19:25:43.527 | INFO     | core.bilibili_client:login_qrcode:28 - Waiting for QR code scan...
+2026-04-13 19:30:54.890 | INFO     | __main__:run:125 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 19:30:54.891 | INFO     | core.bilibili_client:login_qrcode:19 - Starting Bilibili QR code login...
+2026-04-13 19:30:55.386 | INFO     | core.bilibili_client:login_qrcode:28 - Waiting for QR code scan...
+2026-04-13 19:31:09.988 | INFO     | core.bilibili_client:login_qrcode:42 - Bilibili login successful!
+2026-04-13 19:31:10.012 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 19:31:10.450 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 19:31:10.845 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 9 artworks from day ranking
+2026-04-13 19:31:10.846 | INFO     | __main__:run:143 - Already published 0 artworks on record
+2026-04-13 19:33:32.036 | INFO     | __main__:run:125 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 19:33:32.042 | INFO     | core.bilibili_client:load_credential:58 - Loaded saved Bilibili credential
+2026-04-13 19:33:32.059 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 19:33:32.476 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 19:33:32.878 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 9 artworks from day ranking
+2026-04-13 19:33:32.878 | INFO     | __main__:run:143 - Already published 0 artworks on record
+2026-04-13 19:33:45.008 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143408592_0.jpg: score=0.1225 -> SAFE
+2026-04-13 19:33:45.151 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143408592_1.jpg: score=0.0775 -> SAFE
+2026-04-13 19:33:45.293 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143408592_2.jpg: score=0.1571 -> SAFE
+2026-04-13 19:33:45.444 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143408592_3.jpg: score=0.1104 -> SAFE
+2026-04-13 19:33:45.444 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143408592_0.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:33:45.444 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143408592_1.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:33:45.444 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143408592_2.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:33:45.445 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143408592_3.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:33:45.445 | ERROR    | core.bilibili_client:publish_image_dynamic:108 - No images uploaded, aborting dynamic publish
+2026-04-13 19:33:45.445 | INFO     | __main__:run:224 - Published artwork: じいさんばあさん若返る【226】 (143408592)
+2026-04-13 19:33:47.686 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143436831_0.jpg: score=0.0018 -> SAFE
+2026-04-13 19:33:47.814 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143436831_1.jpg: score=0.0026 -> SAFE
+2026-04-13 19:33:47.814 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143436831_0.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:33:47.814 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143436831_1.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:33:47.814 | ERROR    | core.bilibili_client:publish_image_dynamic:108 - No images uploaded, aborting dynamic publish
+2026-04-13 19:33:47.815 | INFO     | __main__:run:224 - Published artwork: マルル (143436831)
+2026-04-13 19:33:49.516 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143398432_0.jpg: score=0.7630 -> REJECTED
+2026-04-13 19:33:49.516 | INFO     | core.safety_checker:filter_safe_with_results:71 - Filtered out 1 unsafe image(s)
+2026-04-13 19:33:49.517 | INFO     | __main__:run:182 - All images rejected by NSFW check: キュアアルカナ・シャドウ
+2026-04-13 19:34:02.418 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143393681_0.jpg: score=0.0009 -> SAFE
+2026-04-13 19:34:02.535 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143393681_1.jpg: score=0.0048 -> SAFE
+2026-04-13 19:34:02.653 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143393681_2.jpg: score=0.0058 -> SAFE
+2026-04-13 19:34:02.775 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143393681_3.jpg: score=0.0006 -> SAFE
+2026-04-13 19:34:02.915 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143393681_4.jpg: score=0.0100 -> SAFE
+2026-04-13 19:34:03.042 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143393681_5.jpg: score=0.0090 -> SAFE
+2026-04-13 19:34:03.182 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143393681_6.jpg: score=0.1069 -> SAFE
+2026-04-13 19:34:03.182 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143393681_0.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:03.182 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143393681_1.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:03.182 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143393681_2.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:03.182 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143393681_3.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:03.182 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143393681_4.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:03.183 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143393681_5.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:03.183 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143393681_6.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:03.183 | ERROR    | core.bilibili_client:publish_image_dynamic:108 - No images uploaded, aborting dynamic publish
+2026-04-13 19:34:03.183 | INFO     | __main__:run:224 - Published artwork: 11巻出ました (143393681)
+2026-04-13 19:34:24.733 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_0.jpg: score=0.0022 -> SAFE
+2026-04-13 19:34:24.862 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_1.jpg: score=0.1027 -> SAFE
+2026-04-13 19:34:24.991 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_2.jpg: score=0.0917 -> SAFE
+2026-04-13 19:34:25.109 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_3.jpg: score=0.0149 -> SAFE
+2026-04-13 19:34:25.235 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_4.jpg: score=0.0316 -> SAFE
+2026-04-13 19:34:25.361 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_5.jpg: score=0.0151 -> SAFE
+2026-04-13 19:34:25.487 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_6.jpg: score=0.0043 -> SAFE
+2026-04-13 19:34:25.609 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_7.jpg: score=0.0182 -> SAFE
+2026-04-13 19:34:25.726 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_8.jpg: score=0.0076 -> SAFE
+2026-04-13 19:34:25.844 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_9.jpg: score=0.0079 -> SAFE
+2026-04-13 19:34:25.959 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_10.jpg: score=0.0041 -> SAFE
+2026-04-13 19:34:26.075 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_11.jpg: score=0.0362 -> SAFE
+2026-04-13 19:34:26.196 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_12.jpg: score=0.0669 -> SAFE
+2026-04-13 19:34:26.309 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_13.jpg: score=0.2189 -> SAFE
+2026-04-13 19:34:26.425 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_14.jpg: score=0.0606 -> SAFE
+2026-04-13 19:34:26.535 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143430652_15.jpg: score=0.0289 -> SAFE
+2026-04-13 19:34:26.536 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143430652_0.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:26.536 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143430652_1.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:26.536 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143430652_2.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:26.536 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143430652_3.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:26.536 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143430652_4.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:26.536 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143430652_5.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:26.536 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143430652_6.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:26.536 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143430652_7.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:26.536 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143430652_8.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:26.536 | ERROR    | core.bilibili_client:publish_image_dynamic:108 - No images uploaded, aborting dynamic publish
+2026-04-13 19:34:26.537 | INFO     | __main__:run:224 - Published artwork: ヤチいろかぐまとめ② (143430652)
+2026-04-13 19:34:32.073 | WARNING  | utils.image_utils:download_image:31 - Download attempt 1/3 failed for https://i.pximg.net/img-original/img/2026/04/11/20/12/29/143425726_p7.jpg: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 19:34:32.731 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143425726_0.jpg: score=0.1049 -> SAFE
+2026-04-13 19:34:32.846 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143425726_1.jpg: score=0.0075 -> SAFE
+2026-04-13 19:34:32.964 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143425726_2.jpg: score=0.0243 -> SAFE
+2026-04-13 19:34:33.075 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143425726_3.jpg: score=0.0238 -> SAFE
+2026-04-13 19:34:33.195 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143425726_4.jpg: score=0.2569 -> SAFE
+2026-04-13 19:34:33.311 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143425726_5.jpg: score=0.0484 -> SAFE
+2026-04-13 19:34:33.427 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143425726_6.jpg: score=0.1182 -> SAFE
+2026-04-13 19:34:33.553 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143425726_7.jpg: score=0.2513 -> SAFE
+2026-04-13 19:34:33.553 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143425726_0.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:33.553 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143425726_1.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:33.553 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143425726_2.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:33.554 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143425726_3.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:33.554 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143425726_4.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:33.554 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143425726_5.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:33.554 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143425726_6.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:33.555 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to upload image 143425726_7.jpg: 'str' object has no attribute '_to_biliapifile'
+2026-04-13 19:34:33.555 | ERROR    | core.bilibili_client:publish_image_dynamic:108 - No images uploaded, aborting dynamic publish
+2026-04-13 19:34:33.555 | INFO     | __main__:run:224 - Published artwork: 大人になれない (143425726)
+2026-04-13 19:36:10.964 | WARNING  | utils.image_utils:download_image:31 - Download attempt 1/3 failed for https://i.pximg.net/img-original/img/2026/04/11/00/04/08/143394299_p15.jpg: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 19:37:57.924 | INFO     | __main__:run:125 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 19:37:57.925 | INFO     | core.bilibili_client:load_credential:58 - Loaded saved Bilibili credential
+2026-04-13 19:37:57.942 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 19:37:58.388 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 19:37:58.984 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 9 artworks from day ranking
+2026-04-13 19:37:58.990 | INFO     | __main__:run:143 - Already published 5 artworks on record
+2026-04-13 19:37:58.990 | INFO     | __main__:run:148 - Skipping already published: じいさんばあさん若返る【226】 (143408592)
+2026-04-13 19:37:58.991 | INFO     | __main__:run:148 - Skipping already published: マルル (143436831)
+2026-04-13 19:38:01.173 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143398432_0.jpg: score=0.7630 -> REJECTED
+2026-04-13 19:38:01.174 | INFO     | core.safety_checker:filter_safe_with_results:71 - Filtered out 1 unsafe image(s)
+2026-04-13 19:38:01.174 | INFO     | __main__:run:182 - All images rejected by NSFW check: キュアアルカナ・シャドウ
+2026-04-13 19:38:01.174 | INFO     | __main__:run:148 - Skipping already published: 11巻出ました (143393681)
+2026-04-13 19:38:01.174 | INFO     | __main__:run:148 - Skipping already published: ヤチいろかぐまとめ② (143430652)
+2026-04-13 19:38:01.174 | INFO     | __main__:run:148 - Skipping already published: 大人になれない (143425726)
+2026-04-13 19:49:35.594 | INFO     | __main__:run:125 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 19:49:35.594 | INFO     | core.bilibili_client:load_credential:58 - Loaded saved Bilibili credential
+2026-04-13 19:49:35.616 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 19:49:36.041 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 19:49:36.434 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 4 artworks from day ranking
+2026-04-13 19:49:36.435 | INFO     | __main__:run:143 - Already published 5 artworks on record
+2026-04-13 19:49:36.435 | INFO     | __main__:run:148 - Skipping already published: マルル (143436831)
+2026-04-13 19:49:37.988 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143398432_0.jpg: score=0.7630 -> BORDERLINE
+2026-04-13 19:49:38.279 | ERROR    | core.bilibili_client:publish_image_dynamic:106 - Failed to upload image 143398432_0.jpg: 'BiliAPIFile' object has no attribute 'read'
+2026-04-13 19:49:38.280 | ERROR    | core.bilibili_client:publish_image_dynamic:109 - No images uploaded, aborting dynamic publish
+2026-04-13 19:49:38.280 | INFO     | __main__:run:224 - Published artwork: キュアアルカナ・シャドウ (143398432)
+2026-04-13 19:49:49.638 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143393695_0.jpg: score=0.1422 -> SAFE
+2026-04-13 19:49:49.713 | ERROR    | core.bilibili_client:publish_image_dynamic:106 - Failed to upload image 143393695_0.jpg: 'BiliAPIFile' object has no attribute 'read'
+2026-04-13 19:49:49.714 | ERROR    | core.bilibili_client:publish_image_dynamic:109 - No images uploaded, aborting dynamic publish
+2026-04-13 19:49:49.714 | INFO     | __main__:run:224 - Published artwork: Pure Devil😈 (143393695)
+2026-04-13 19:49:51.349 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143393690_0.jpg: score=0.0321 -> SAFE
+2026-04-13 19:49:51.450 | ERROR    | core.bilibili_client:publish_image_dynamic:106 - Failed to upload image 143393690_0.jpg: 'BiliAPIFile' object has no attribute 'read'
+2026-04-13 19:49:51.450 | ERROR    | core.bilibili_client:publish_image_dynamic:109 - No images uploaded, aborting dynamic publish
+2026-04-13 19:49:51.450 | INFO     | __main__:run:224 - Published artwork: 10日目 小鳥遊ホシノ (143393690)
+2026-04-13 19:49:51.451 | INFO     | __main__:run:226 - === Bot Finished ===
+2026-04-13 19:55:24.344 | INFO     | __main__:run:125 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 19:55:24.344 | INFO     | core.bilibili_client:load_credential:58 - Loaded saved Bilibili credential
+2026-04-13 19:55:24.363 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 19:55:24.788 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 19:55:25.189 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 4 artworks from day ranking
+2026-04-13 19:55:25.195 | INFO     | __main__:run:143 - Already published 8 artworks on record
+2026-04-13 19:55:25.195 | INFO     | __main__:run:148 - Skipping already published: マルル (143436831)
+2026-04-13 19:55:25.195 | INFO     | __main__:run:148 - Skipping already published: キュアアルカナ・シャドウ (143398432)
+2026-04-13 19:55:25.195 | INFO     | __main__:run:148 - Skipping already published: Pure Devil😈 (143393695)
+2026-04-13 19:55:25.195 | INFO     | __main__:run:148 - Skipping already published: 10日目 小鳥遊ホシノ (143393690)
+2026-04-13 19:55:25.196 | INFO     | __main__:run:226 - === Bot Finished ===
+2026-04-13 20:08:24.342 | INFO     | __main__:run:125 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 20:08:24.342 | INFO     | core.bilibili_client:login_qrcode:18 - Starting Bilibili QR code login...
+2026-04-13 20:14:01.506 | INFO     | __main__:run:125 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 20:14:01.507 | INFO     | core.bilibili_client:login_qrcode:18 - Starting Bilibili QR code login...
+2026-04-13 20:14:13.051 | INFO     | core.bilibili_client:login_qrcode:25 - Bilibili login successful!
+2026-04-13 20:14:13.068 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 20:14:13.627 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 20:14:14.025 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 4 artworks from day ranking
+2026-04-13 20:14:14.026 | INFO     | __main__:run:143 - Already published 8 artworks on record
+2026-04-13 20:14:14.026 | INFO     | __main__:run:148 - Skipping already published: マルル (143436831)
+2026-04-13 20:14:14.026 | INFO     | __main__:run:148 - Skipping already published: キュアアルカナ・シャドウ (143398432)
+2026-04-13 20:14:14.026 | INFO     | __main__:run:148 - Skipping already published: Pure Devil😈 (143393695)
+2026-04-13 20:14:14.027 | INFO     | __main__:run:148 - Skipping already published: 10日目 小鳥遊ホシノ (143393690)
+2026-04-13 20:14:14.027 | INFO     | __main__:run:226 - === Bot Finished ===
+2026-04-13 20:17:02.604 | INFO     | __main__:run:125 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 20:17:02.610 | INFO     | core.bilibili_client:load_credential:40 - Loaded saved Bilibili credential
+2026-04-13 20:17:02.627 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 20:17:03.049 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 20:17:03.447 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 4 artworks from day ranking
+2026-04-13 20:17:03.447 | INFO     | __main__:run:143 - Already published 0 artworks on record
+2026-04-13 20:17:06.317 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143436831_0.jpg: score=0.0018 -> SAFE
+2026-04-13 20:17:06.452 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143436831_1.jpg: score=0.0026 -> SAFE
+2026-04-13 20:17:14.592 | INFO     | core.bilibili_client:publish_image_dynamic:102 - Published image dynamic: id=unknown
+2026-04-13 20:17:14.594 | INFO     | __main__:run:224 - Published artwork: マルル (143436831)
+2026-04-13 20:17:15.379 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143398432_0.jpg: score=0.7630 -> BORDERLINE
+2026-04-13 20:17:17.211 | INFO     | core.bilibili_client:publish_image_dynamic:102 - Published image dynamic: id=unknown
+2026-04-13 20:17:17.212 | INFO     | __main__:run:224 - Published artwork: キュアアルカナ・シャドウ (143398432)
+2026-04-13 20:17:19.814 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143393695_0.jpg: score=0.1422 -> SAFE
+2026-04-13 20:17:25.221 | ERROR    | core.bilibili_client:publish_image_dynamic:105 - Failed to publish dynamic: 
+2026-04-13 20:17:25.221 | INFO     | __main__:run:224 - Published artwork: Pure Devil😈 (143393695)
+2026-04-13 20:17:26.550 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143393690_0.jpg: score=0.0321 -> SAFE
+2026-04-13 20:17:30.759 | INFO     | core.bilibili_client:publish_image_dynamic:102 - Published image dynamic: id=unknown
+2026-04-13 20:17:30.759 | INFO     | __main__:run:224 - Published artwork: 10日目 小鳥遊ホシノ (143393690)
+2026-04-13 20:17:30.760 | INFO     | __main__:run:226 - === Bot Finished ===
+2026-04-13 20:41:57.320 | INFO     | __main__:run:218 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 20:41:57.320 | INFO     | core.bilibili_client:load_credential:40 - Loaded saved Bilibili credential
+2026-04-13 20:41:57.338 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 20:41:57.869 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 20:41:58.304 | INFO     | core.pixiv_client:search_by_tag:95 - Found 9 artworks for tag '原神'
+2026-04-13 20:41:58.304 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag '原神': total unique artworks so far = 9
+2026-04-13 20:41:58.580 | INFO     | core.pixiv_client:search_by_tag:95 - Found 9 artworks for tag '崩壊：スターレイル'
+2026-04-13 20:41:58.580 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag '崩壊：スターレイル': total unique artworks so far = 18
+2026-04-13 20:41:58.808 | INFO     | core.pixiv_client:search_by_tag:95 - Found 10 artworks for tag '終末地'
+2026-04-13 20:41:58.809 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag '終末地': total unique artworks so far = 28
+2026-04-13 20:41:59.095 | INFO     | core.pixiv_client:search_by_tag:95 - Found 8 artworks for tag 'ゼンレスゾーンゼロ'
+2026-04-13 20:41:59.096 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag 'ゼンレスゾーンゼロ': total unique artworks so far = 36
+2026-04-13 20:41:59.347 | INFO     | core.pixiv_client:search_by_tag:95 - Found 9 artworks for tag '鳴潮'
+2026-04-13 20:41:59.347 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag '鳴潮': total unique artworks so far = 45
+2026-04-13 20:41:59.347 | INFO     | core.pixiv_client:fetch_artworks:172 - Total unique artworks fetched: 45
+2026-04-13 20:41:59.348 | INFO     | __main__:run:236 - Already published 4 artworks on record
+2026-04-13 20:41:59.348 | INFO     | __main__:run:253 - Candidate artworks after filtering: 45
+2026-04-13 20:42:03.831 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143515687_0.jpg: score=0.0239 -> SAFE
+2026-04-13 20:43:03.854 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143506934_0.jpg: score=0.2514 -> SAFE
+2026-04-13 20:43:04.082 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143506934_1.jpg: score=0.1287 -> SAFE
+2026-04-13 20:43:08.533 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143462992_0.jpg: score=0.0061 -> SAFE
+2026-04-13 20:43:09.550 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143428804_0.jpg: score=0.0368 -> SAFE
+2026-04-13 20:43:10.266 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143513160_0.jpg: score=0.4122 -> BORDERLINE
+2026-04-13 20:43:15.699 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143514254_0.jpg: score=0.8820 -> BORDERLINE
+2026-04-13 20:43:15.812 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143514254_1.jpg: score=0.8930 -> BORDERLINE
+2026-04-13 20:43:15.926 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143514254_2.jpg: score=0.1837 -> SAFE
+2026-04-13 20:43:16.040 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143514254_3.jpg: score=0.9803 -> REJECTED
+2026-04-13 20:43:16.040 | INFO     | core.safety_checker:filter_safe_with_results:71 - Filtered out 1 unsafe image(s)
+2026-04-13 20:43:21.606 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143440299_0.jpg: score=0.0155 -> SAFE
+2026-04-13 20:43:21.711 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143440299_1.jpg: score=0.0277 -> SAFE
+2026-04-13 20:43:21.810 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143440299_2.jpg: score=0.0233 -> SAFE
+2026-04-13 20:43:21.914 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143440299_3.jpg: score=0.0261 -> SAFE
+2026-04-13 20:43:22.769 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143497254_0.jpg: score=0.0760 -> SAFE
+2026-04-13 20:43:23.553 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143511312_0.jpg: score=0.3401 -> BORDERLINE
+2026-04-13 20:43:24.350 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143515333_0.jpg: score=0.0033 -> SAFE
+2026-04-13 20:43:25.774 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143513304_0.jpg: score=0.1358 -> SAFE
+2026-04-13 20:43:25.775 | INFO     | __main__:run:275 - Ready to publish: 11 artworks (target: 8 image + 3 video)
+2026-04-13 20:43:25.775 | INFO     | __main__:run:291 - [Image 1/8] Publishing: 新グッズ衣装 (143515687)
+2026-04-13 20:43:28.351 | INFO     | core.bilibili_client:publish_image_dynamic:102 - Published image dynamic: id=unknown
+2026-04-13 20:43:28.352 | INFO     | __main__:run:296 - [Image 1/8] Published successfully
+2026-04-13 20:43:28.353 | INFO     | __main__:run:303 - Sleeping 60s before next publish...
+2026-04-13 20:44:28.353 | INFO     | __main__:run:291 - [Image 2/8] Publishing: 草地洛茜 (143506934)
+2026-04-13 20:44:34.224 | ERROR    | core.bilibili_client:publish_image_dynamic:106 - Failed to publish dynamic: 
+Traceback (most recent call last):
+  File "D:\pixiv-to-bilibili\core\bilibili_client.py", line 97, in publish_image_dynamic
+    resp = await dynamic.send_dynamic(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\site-packages\bilibili_api\dynamic.py", line 651, in send_dynamic
+    await image.upload_file(credential)
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\site-packages\bilibili_api\utils\picture.py", line 163, in upload_file
+    res = await upload_image(self, credential)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\site-packages\bilibili_api\dynamic.py", line 211, in upload_image
+    await Api(**api, credential=credential).update_data(**data).request(files=files)
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\site-packages\bilibili_api\utils\network.py", line 174, in inner
+    return await func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\site-packages\bilibili_api\utils\network.py", line 558, in request
+    async with session.request(**config) as resp:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\site-packages\aiohttp\client.py", line 1353, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\site-packages\aiohttp\client.py", line 684, in _request
+    await resp.start(conn)
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\site-packages\aiohttp\client_reqrep.py", line 994, in start
+    with self._timer:
+         ^^^^^^^^^^^
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\site-packages\aiohttp\helpers.py", line 713, in __exit__
+    raise asyncio.TimeoutError from None
+TimeoutError
+
+2026-04-13 20:44:34.225 | INFO     | __main__:run:296 - [Image 2/8] Published successfully
+2026-04-13 20:44:34.225 | INFO     | __main__:run:303 - Sleeping 60s before next publish...
+2026-04-13 21:04:45.903 | INFO     | __main__:run:132 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 21:04:45.904 | INFO     | core.bilibili_client:load_credential:41 - Loaded saved Bilibili credential
+2026-04-13 21:04:45.924 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 21:04:46.531 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 21:04:47.118 | INFO     | core.pixiv_client:search_by_tag:95 - Found 10 artworks for tag '原神'
+2026-04-13 21:04:47.119 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag '原神': total unique artworks so far = 10
+2026-04-13 21:04:47.459 | INFO     | core.pixiv_client:search_by_tag:95 - Found 9 artworks for tag '崩壊：スターレイル'
+2026-04-13 21:04:47.459 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag '崩壊：スターレイル': total unique artworks so far = 19
+2026-04-13 21:04:47.737 | INFO     | core.pixiv_client:search_by_tag:95 - Found 10 artworks for tag '終末地'
+2026-04-13 21:04:47.737 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag '終末地': total unique artworks so far = 29
+2026-04-13 21:04:48.054 | INFO     | core.pixiv_client:search_by_tag:95 - Found 8 artworks for tag 'ゼンレスゾーンゼロ'
+2026-04-13 21:04:48.054 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag 'ゼンレスゾーンゼロ': total unique artworks so far = 37
+2026-04-13 21:04:48.384 | INFO     | core.pixiv_client:search_by_tag:95 - Found 9 artworks for tag '鳴潮'
+2026-04-13 21:04:48.385 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag '鳴潮': total unique artworks so far = 46
+2026-04-13 21:04:48.385 | INFO     | core.pixiv_client:fetch_artworks:172 - Total unique artworks fetched: 46
+2026-04-13 21:04:48.386 | INFO     | __main__:run:150 - Already published 6 artworks on record
+2026-04-13 21:04:48.386 | INFO     | __main__:run:156 - Skipping already published: 新グッズ衣装 (143515687)
+2026-04-13 21:04:48.386 | INFO     | __main__:run:156 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 21:04:48.386 | INFO     | __main__:run:167 - Candidate artworks after filtering: 44
+2026-04-13 21:04:50.080 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143507754_0.jpg: score=0.0065 -> SAFE
+2026-04-13 21:04:54.397 | INFO     | core.content_checker:check_content:119 - [ContentCheck] 143507754_0.jpg: gender=female, PASS, reason=图片中主要角色为女性，整体印象符合正常动漫审美，无明显性别不一致或严重人体结构异常问题。
+2026-04-13 21:04:57.375 | INFO     | core.content_checker:generate_copy:163 - [CopyGen] Generated copy (73 chars)
+2026-04-13 21:05:01.357 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517080_0.jpg: score=0.0266 -> SAFE
+2026-04-13 21:05:01.469 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517080_1.jpg: score=0.0608 -> SAFE
+2026-04-13 21:05:01.571 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517080_2.jpg: score=0.0991 -> SAFE
+2026-04-13 21:05:01.674 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517080_3.jpg: score=0.0543 -> SAFE
+2026-04-13 21:05:01.778 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517080_4.jpg: score=0.0140 -> SAFE
+2026-04-13 21:05:01.874 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517080_5.jpg: score=0.0432 -> SAFE
+2026-04-13 21:05:03.181 | INFO     | core.content_checker:check_content:119 - [ContentCheck] 143517080_0.jpg: gender=male, PASS, reason=图片中主要角色为男性，整体印象清晰。角色面部与身体性别一致，人体结构正常，符合动漫审美标准。
+2026-04-13 21:05:04.600 | INFO     | core.content_checker:generate_copy:163 - [CopyGen] Generated copy (90 chars)
+2026-04-13 21:05:05.486 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143516600_0.jpg: score=0.0379 -> SAFE
+2026-04-13 21:05:06.804 | INFO     | core.content_checker:check_content:119 - [ContentCheck] 143516600_0.jpg: gender=female, PASS, reason=图片中主要角色为女性，且符合正常动漫审美，无明显性别不一致或严重人体结构异常问题。
+2026-04-13 21:05:08.146 | INFO     | core.content_checker:generate_copy:163 - [CopyGen] Generated copy (95 chars)
+2026-04-13 21:05:08.821 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143516062_0.jpg: score=0.1300 -> SAFE
+2026-04-13 21:05:10.088 | INFO     | core.content_checker:check_content:119 - [ContentCheck] 143516062_0.jpg: gender=female, PASS, reason=图片中主要角色为女性，整体形象符合正常动漫审美，无明显性别不一致或严重人体结构异常问题。
+2026-04-13 21:05:11.528 | INFO     | core.content_checker:generate_copy:163 - [CopyGen] Generated copy (93 chars)
+2026-04-13 21:05:13.155 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143508168_0.jpg: score=0.0099 -> SAFE
+2026-04-13 21:05:14.321 | INFO     | core.content_checker:check_content:119 - [ContentCheck] 143508168_0.jpg: gender=female, PASS, reason=图片中主要角色为女性，符合正常动漫审美，无明显性别不一致或严重人体结构异常问题。
+2026-04-13 21:05:15.565 | INFO     | core.content_checker:generate_copy:163 - [CopyGen] Generated copy (103 chars)
+2026-04-13 21:05:16.561 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143515467_0.jpg: score=0.0416 -> SAFE
+2026-04-13 21:05:19.839 | INFO     | core.content_checker:check_content:119 - [ContentCheck] 143515467_0.jpg: gender=female, PASS, reason=图片中主要角色为女性，整体印象符合正常动漫审美，无明显性别不一致或严重人体结构异常问题。
+2026-04-13 21:05:22.880 | INFO     | core.content_checker:generate_copy:163 - [CopyGen] Generated copy (128 chars)
+2026-04-13 21:05:23.638 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143515192_0.jpg: score=0.1147 -> SAFE
+2026-04-13 21:05:25.017 | INFO     | core.content_checker:check_content:119 - [ContentCheck] 143515192_0.jpg: gender=female, PASS, reason=图片中主要角色为女性，整体形象符合正常动漫审美，无明显性别不一致或严重人体结构异常问题。
+2026-04-13 21:05:26.200 | INFO     | core.content_checker:generate_copy:163 - [CopyGen] Generated copy (71 chars)
+2026-04-13 21:05:29.345 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143510018_0.jpg: score=0.2650 -> SAFE
+2026-04-13 21:05:31.318 | INFO     | core.content_checker:check_content:119 - [ContentCheck] 143510018_0.jpg: gender=female, PASS, reason=图片中主要角色为女性，符合正常动漫审美，无明显性别不一致或严重人体结构异常问题。
+2026-04-13 21:05:33.046 | INFO     | core.content_checker:generate_copy:163 - [CopyGen] Generated copy (90 chars)
+2026-04-13 21:05:34.013 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143510090_0.jpg: score=0.0014 -> SAFE
+2026-04-13 21:05:35.142 | INFO     | core.content_checker:check_content:119 - [ContentCheck] 143510090_0.jpg: gender=female, PASS, reason=图片中主要角色为女性，整体形象符合正常动漫审美，无明显性别不一致或严重人体结构异常问题。
+2026-04-13 21:05:36.199 | INFO     | core.content_checker:generate_copy:163 - [CopyGen] Generated copy (82 chars)
+2026-04-13 21:05:40.320 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143462992_0.jpg: score=0.0061 -> SAFE
+2026-04-13 21:05:42.735 | INFO     | core.content_checker:check_content:119 - [ContentCheck] 143462992_0.jpg: gender=female, PASS, reason=图片中主要角色为女性，符合正常动漫审美，无明显性别不一致或严重人体结构异常问题。
+2026-04-13 21:05:45.871 | INFO     | core.content_checker:generate_copy:163 - [CopyGen] Generated copy (108 chars)
+2026-04-13 21:08:54.524 | INFO     | __main__:run:132 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 21:08:54.525 | INFO     | core.bilibili_client:load_credential:41 - Loaded saved Bilibili credential
+2026-04-13 21:08:54.543 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 21:08:55.145 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 21:08:55.598 | INFO     | core.pixiv_client:search_by_tag:95 - Found 10 artworks for tag '原神'
+2026-04-13 21:08:55.598 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag '原神': total unique artworks so far = 10
+2026-04-13 21:08:55.895 | INFO     | core.pixiv_client:search_by_tag:95 - Found 9 artworks for tag '崩壊：スターレイル'
+2026-04-13 21:08:55.895 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag '崩壊：スターレイル': total unique artworks so far = 19
+2026-04-13 21:08:56.165 | INFO     | core.pixiv_client:search_by_tag:95 - Found 10 artworks for tag '終末地'
+2026-04-13 21:08:56.165 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag '終末地': total unique artworks so far = 29
+2026-04-13 21:08:56.415 | INFO     | core.pixiv_client:search_by_tag:95 - Found 8 artworks for tag 'ゼンレスゾーンゼロ'
+2026-04-13 21:08:56.415 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag 'ゼンレスゾーンゼロ': total unique artworks so far = 37
+2026-04-13 21:08:56.661 | INFO     | core.pixiv_client:search_by_tag:95 - Found 9 artworks for tag '鳴潮'
+2026-04-13 21:08:56.661 | INFO     | core.pixiv_client:fetch_artworks:160 - Tag '鳴潮': total unique artworks so far = 46
+2026-04-13 21:08:56.661 | INFO     | core.pixiv_client:fetch_artworks:172 - Total unique artworks fetched: 46
+2026-04-13 21:08:56.661 | INFO     | __main__:run:150 - Already published 6 artworks on record
+2026-04-13 21:08:56.663 | INFO     | __main__:run:156 - Skipping already published: 新グッズ衣装 (143515687)
+2026-04-13 21:08:56.663 | INFO     | __main__:run:156 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 21:08:56.663 | INFO     | __main__:run:167 - Candidate artworks after filtering: 44
+2026-04-13 21:09:07.551 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143440299_0.jpg: score=0.0155 -> SAFE
+2026-04-13 21:09:07.651 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143440299_1.jpg: score=0.0277 -> SAFE
+2026-04-13 21:09:07.757 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143440299_2.jpg: score=0.0233 -> SAFE
+2026-04-13 21:09:07.858 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143440299_3.jpg: score=0.0261 -> SAFE
+2026-04-13 21:09:09.368 | INFO     | core.content_checker:check_and_generate:121 - [CheckAndGen] 143440299_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:09:10.100 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143485861_0.jpg: score=0.0338 -> SAFE
+2026-04-13 21:09:12.148 | INFO     | core.content_checker:check_and_generate:121 - [CheckAndGen] 143485861_0.jpg: PASS, reason=图片中角色均为拟人化动物（福瑞），符合正常动漫审美，无明显性别不一致或严重人体结构异常。, copy=True
+2026-04-13 21:09:13.162 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517343_0.jpg: score=0.8346 -> BORDERLINE
+2026-04-13 21:09:15.384 | INFO     | core.content_checker:check_and_generate:121 - [CheckAndGen] 143517343_0.jpg: PASS, reason=角色面部与身体性别一致，人体结构符合正常动漫审美。, copy=True
+2026-04-13 21:09:17.595 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143516030_0.jpg: score=0.8068 -> BORDERLINE
+2026-04-13 21:09:19.378 | INFO     | core.content_checker:check_and_generate:121 - [CheckAndGen] 143516030_0.jpg: PASS, reason=角色面部与身体性别一致，人体结构符合正常动漫审美。, copy=True
+2026-04-13 21:09:21.061 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143516930_0.jpg: score=0.0084 -> SAFE
+2026-04-13 21:09:22.632 | INFO     | core.content_checker:check_and_generate:121 - [CheckAndGen] 143516930_0.jpg: PASS, reason=角色面部与身体性别一致，人体结构正常，符合动漫审美。, copy=True
+2026-04-13 21:09:26.033 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143507061_0.jpg: score=0.0380 -> SAFE
+2026-04-13 21:09:28.165 | INFO     | core.content_checker:check_and_generate:121 - [CheckAndGen] 143507061_0.jpg: PASS, reason=角色面部与身体性别一致，人体结构符合正常动漫审美。, copy=True
+2026-04-13 21:09:29.530 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143513304_0.jpg: score=0.1358 -> SAFE
+2026-04-13 21:09:32.218 | INFO     | core.content_checker:check_and_generate:121 - [CheckAndGen] 143513304_0.jpg: PASS, reason=角色面部与身体性别一致，人体结构正常，符合动漫审美。, copy=True
+2026-04-13 21:09:34.520 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143515796_0.jpg: score=0.0111 -> SAFE
+2026-04-13 21:09:36.841 | INFO     | core.content_checker:check_and_generate:121 - [CheckAndGen] 143515796_0.jpg: PASS, reason=角色面部与身体性别一致，人体结构正常，符合动漫审美。, copy=True
+2026-04-13 21:09:37.810 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143508168_0.jpg: score=0.0099 -> SAFE
+2026-04-13 21:09:39.583 | INFO     | core.content_checker:check_and_generate:121 - [CheckAndGen] 143508168_0.jpg: PASS, reason=角色面部与身体性别一致，人体结构符合正常动漫审美。, copy=True
+2026-04-13 21:09:40.474 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143515772_0.jpg: score=0.0171 -> SAFE
+2026-04-13 21:09:42.536 | INFO     | core.content_checker:check_and_generate:121 - [CheckAndGen] 143515772_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:09:50.211 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143505301_0.jpg: score=0.0137 -> SAFE
+2026-04-13 21:09:50.350 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143505301_1.jpg: score=0.0217 -> SAFE
+2026-04-13 21:09:52.243 | INFO     | core.content_checker:check_and_generate:121 - [CheckAndGen] 143505301_0.jpg: PASS, reason=角色面部与身体性别一致，无严重人体结构异常，符合正常动漫审美。, copy=True
+2026-04-13 21:09:52.244 | INFO     | __main__:run:199 - Ready to publish: 11 artworks (target: 8 image + 3 video)
+2026-04-13 21:09:52.244 | INFO     | __main__:run:215 - [Image 1/8] Publishing: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-13 21:09:58.118 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:09:58.118 | INFO     | __main__:run:220 - [Image 1/8] Published successfully
+2026-04-13 21:09:58.118 | INFO     | __main__:run:226 - Sleeping 60s before next publish...
+2026-04-13 21:10:58.119 | INFO     | __main__:run:215 - [Image 2/8] Publishing: 莊天師武陵一穿四🤩 (143485861)
+2026-04-13 21:11:01.160 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:11:01.160 | INFO     | __main__:run:220 - [Image 2/8] Published successfully
+2026-04-13 21:11:01.160 | INFO     | __main__:run:226 - Sleeping 60s before next publish...
+2026-04-13 21:12:01.162 | INFO     | __main__:run:215 - [Image 3/8] Publishing: 妮露 (143517343)
+2026-04-13 21:12:05.815 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:12:05.815 | INFO     | __main__:run:220 - [Image 3/8] Published successfully
+2026-04-13 21:12:05.815 | INFO     | __main__:run:226 - Sleeping 60s before next publish...
+2026-04-13 21:13:05.817 | INFO     | __main__:run:215 - [Image 4/8] Publishing: イドリー (143516030)
+2026-04-13 21:13:11.225 | WARNING  | core.bilibili_client:publish_image_dynamic:112 - Publish attempt 1/3 timed out
+2026-04-13 21:13:11.225 | INFO     | core.bilibili_client:publish_image_dynamic:114 - Retrying in 10s...
+2026-04-13 21:13:27.223 | WARNING  | core.bilibili_client:publish_image_dynamic:112 - Publish attempt 2/3 timed out
+2026-04-13 21:13:27.224 | INFO     | core.bilibili_client:publish_image_dynamic:114 - Retrying in 10s...
+2026-04-13 21:13:40.823 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:13:40.824 | INFO     | __main__:run:220 - [Image 4/8] Published successfully
+2026-04-13 21:13:40.824 | INFO     | __main__:run:226 - Sleeping 60s before next publish...
+2026-04-13 21:14:40.825 | INFO     | __main__:run:215 - [Image 5/8] Publishing: イドリーと (143516930)
+2026-04-13 21:14:44.383 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:14:44.384 | INFO     | __main__:run:220 - [Image 5/8] Published successfully
+2026-04-13 21:14:44.384 | INFO     | __main__:run:226 - Sleeping 60s before next publish...
+2026-04-13 21:15:44.385 | INFO     | __main__:run:215 - [Image 6/8] Publishing: 🪼 (143507061)
+2026-04-13 21:15:50.461 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:15:50.461 | INFO     | __main__:run:220 - [Image 6/8] Published successfully
+2026-04-13 21:15:50.462 | INFO     | __main__:run:226 - Sleeping 60s before next publish...
+2026-04-13 21:16:50.462 | INFO     | __main__:run:215 - [Image 7/8] Publishing: 西格莉卡Sigrika (143513304)
+2026-04-13 21:16:55.305 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:16:55.305 | INFO     | __main__:run:220 - [Image 7/8] Published successfully
+2026-04-13 21:16:55.305 | INFO     | __main__:run:226 - Sleeping 60s before next publish...
+2026-04-13 21:17:55.307 | INFO     | __main__:run:215 - [Image 8/8] Publishing: 無題 (143515796)
+2026-04-13 21:18:00.480 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:18:00.480 | INFO     | __main__:run:220 - [Image 8/8] Published successfully
+2026-04-13 21:18:00.480 | INFO     | __main__:run:226 - Sleeping 60s before next publish...
+2026-04-13 21:19:00.482 | INFO     | __main__:run:231 - [Video 1/3] Publishing: ヒアンシー Hyacine (143508168)
+2026-04-13 21:19:00.487 | ERROR    | __main__:run:238 - [Video 1/3] Failed: Cannot understand given URI: <function _ken_burns_clip.<locals>.make_frame at 0x000001....
+2026-04-13 21:19:00.487 | INFO     | __main__:run:242 - Sleeping 60s before next publish...
+2026-04-13 21:23:17.400 | INFO     | __main__:run:132 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 21:23:17.400 | INFO     | core.bilibili_client:load_credential:41 - Loaded saved Bilibili credential
+2026-04-13 21:23:17.416 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 21:23:17.841 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 21:23:18.343 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 16 artworks from day ranking
+2026-04-13 21:23:18.343 | INFO     | core.pixiv_client:fetch_artworks:170 - After day ranking filter: 0 IP artworks
+2026-04-13 21:23:18.635 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 16 artworks from week ranking
+2026-04-13 21:23:18.635 | INFO     | core.pixiv_client:fetch_artworks:170 - After week ranking filter: 0 IP artworks
+2026-04-13 21:23:18.635 | INFO     | core.pixiv_client:fetch_artworks:174 - Ranking gave 0 works, searching by IP tags (popular)...
+2026-04-13 21:23:18.930 | INFO     | core.pixiv_client:search_by_tag:96 - Found 8 artworks for tag 'ゼンレスゾーンゼロ' (sort=popular_desc)
+2026-04-13 21:23:18.930 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag 'ゼンレスゾーンゼロ': total = 8
+2026-04-13 21:23:19.191 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '鳴潮' (sort=popular_desc)
+2026-04-13 21:23:19.192 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '鳴潮': total = 17
+2026-04-13 21:23:19.470 | INFO     | core.pixiv_client:search_by_tag:96 - Found 8 artworks for tag '原神' (sort=popular_desc)
+2026-04-13 21:23:19.471 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '原神': total = 24
+2026-04-13 21:23:19.698 | INFO     | core.pixiv_client:search_by_tag:96 - Found 10 artworks for tag '終末地' (sort=popular_desc)
+2026-04-13 21:23:19.699 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '終末地': total = 34
+2026-04-13 21:23:19.984 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '崩壊：スターレイル' (sort=popular_desc)
+2026-04-13 21:23:19.984 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '崩壊：スターレイル': total = 43
+2026-04-13 21:23:19.984 | INFO     | core.pixiv_client:fetch_artworks:193 - Total unique artworks fetched: 43
+2026-04-13 21:23:19.990 | INFO     | __main__:run:150 - Already published 14 artworks on record
+2026-04-13 21:23:19.991 | INFO     | __main__:run:156 - Skipping already published: イドリーと (143516930)
+2026-04-13 21:23:19.991 | INFO     | __main__:run:156 - Skipping already published: イドリー (143516030)
+2026-04-13 21:23:19.991 | INFO     | __main__:run:156 - Skipping already published: 無題 (143515796)
+2026-04-13 21:23:19.991 | INFO     | __main__:run:156 - Skipping already published: 西格莉卡Sigrika (143513304)
+2026-04-13 21:23:19.991 | INFO     | __main__:run:156 - Skipping already published: 🪼 (143507061)
+2026-04-13 21:23:19.991 | INFO     | __main__:run:156 - Skipping already published: 妮露 (143517343)
+2026-04-13 21:23:19.991 | INFO     | __main__:run:156 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 21:23:19.991 | INFO     | __main__:run:156 - Skipping already published: 莊天師武陵一穿四🤩 (143485861)
+2026-04-13 21:23:19.992 | INFO     | __main__:run:156 - Skipping already published: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-13 21:23:19.992 | INFO     | __main__:run:167 - Candidate artworks after filtering: 34
+2026-04-13 21:23:21.294 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143515192_0.jpg: score=0.1147 -> SAFE
+2026-04-13 21:23:22.594 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143515192_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:23:29.913 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143511312_0.jpg: score=0.3944 -> BORDERLINE
+2026-04-13 21:23:32.672 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143511312_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:23:36.916 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517080_0.jpg: score=0.0266 -> SAFE
+2026-04-13 21:23:37.025 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517080_1.jpg: score=0.0608 -> SAFE
+2026-04-13 21:23:37.130 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517080_2.jpg: score=0.0991 -> SAFE
+2026-04-13 21:23:37.231 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517080_3.jpg: score=0.0543 -> SAFE
+2026-04-13 21:23:37.334 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517080_4.jpg: score=0.0140 -> SAFE
+2026-04-13 21:23:37.428 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517080_5.jpg: score=0.0432 -> SAFE
+2026-04-13 21:23:38.935 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143517080_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:23:40.663 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143514753_0.jpg: score=0.1088 -> SAFE
+2026-04-13 21:23:42.452 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143514753_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:23:44.809 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143505301_0.jpg: score=0.0137 -> SAFE
+2026-04-13 21:23:44.915 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143505301_1.jpg: score=0.0217 -> SAFE
+2026-04-13 21:23:46.497 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143505301_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:23:47.141 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143510090_0.jpg: score=0.0014 -> SAFE
+2026-04-13 21:23:48.530 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143510090_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:23:49.949 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143508215_0.jpg: score=0.0141 -> SAFE
+2026-04-13 21:23:51.731 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143508215_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:23:52.537 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143516489_0.jpg: score=0.1914 -> SAFE
+2026-04-13 21:23:53.999 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143516489_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:23:54.953 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143507754_0.jpg: score=0.0065 -> SAFE
+2026-04-13 21:23:57.572 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143507754_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:23:58.292 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143509797_0.jpg: score=0.3267 -> BORDERLINE
+2026-04-13 21:23:59.763 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143509797_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:24:00.865 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143508186_0.jpg: score=0.6212 -> BORDERLINE
+2026-04-13 21:24:02.368 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143508186_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:24:02.369 | INFO     | __main__:run:199 - Ready to publish: 11 artworks (target: 8 image + 3 video)
+2026-04-13 21:24:02.369 | INFO     | __main__:run:215 - [Image 1/8] Publishing: 柚葉ちゃん (143515192)
+2026-04-13 21:24:03.560 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:24:03.561 | INFO     | __main__:run:220 - [Image 1/8] Published successfully
+2026-04-13 21:24:03.561 | INFO     | __main__:run:226 - Sleeping 60s before next publish...
+2026-04-13 21:25:03.562 | INFO     | __main__:run:215 - [Image 2/8] Publishing: 漂泊者 (143511312)
+2026-04-13 21:25:09.810 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:25:09.811 | INFO     | __main__:run:220 - [Image 2/8] Published successfully
+2026-04-13 21:25:09.811 | INFO     | __main__:run:226 - Sleeping 60s before next publish...
+2026-04-13 21:26:09.813 | INFO     | __main__:run:215 - [Image 3/8] Publishing: ゼンゼロ落書きまとめ (143517080)
+2026-04-13 21:26:18.474 | ERROR    | core.bilibili_client:publish_image_dynamic:118 - Publish attempt 1/3 failed: cannot identify image file 'C:\\Users\\recod\\AppData\\Local\\Temp\\test.jpg'
+Traceback (most recent call last):
+  File "D:\pixiv-to-bilibili\core\bilibili_client.py", line 101, in publish_image_dynamic
+    resp = await asyncio.wait_for(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\asyncio\tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\site-packages\bilibili_api\dynamic.py", line 651, in send_dynamic
+    await image.upload_file(credential)
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\site-packages\bilibili_api\utils\picture.py", line 167, in upload_file
+    self.content = self.from_url(self.url).content
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\site-packages\bilibili_api\utils\picture.py", line 105, in from_url
+    obj.__set_picture_meta_from_bytes(url.split("/")[-1].split(".")[1])
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\site-packages\bilibili_api\utils\picture.py", line 54, in __set_picture_meta_from_bytes
+    img = Image.open(img_path)
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\recod\AppData\Local\conda\conda\envs\pixiv-bot\Lib\site-packages\PIL\Image.py", line 3498, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file 'C:\\Users\\recod\\AppData\\Local\\Temp\\test.jpg'
+
+2026-04-13 21:26:18.474 | INFO     | core.bilibili_client:publish_image_dynamic:120 - Retrying in 10s...
+2026-04-13 21:26:41.386 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:26:41.386 | INFO     | __main__:run:220 - [Image 3/8] Published successfully
+2026-04-13 21:26:41.387 | INFO     | __main__:run:226 - Sleeping 60s before next publish...
+2026-04-13 21:27:41.388 | INFO     | __main__:run:215 - [Image 4/8] Publishing: 聚爆的诱惑 (143514753)
+2026-04-13 21:27:47.222 | WARNING  | core.bilibili_client:publish_image_dynamic:112 - Publish attempt 1/3 timed out
+2026-04-13 21:27:47.223 | INFO     | core.bilibili_client:publish_image_dynamic:114 - Retrying in 10s...
+2026-04-13 21:27:58.958 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:27:58.959 | INFO     | __main__:run:220 - [Image 4/8] Published successfully
+2026-04-13 21:27:58.960 | INFO     | __main__:run:226 - Sleeping 60s before next publish...
+2026-04-13 21:30:17.061 | INFO     | __main__:run:136 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 21:30:17.062 | INFO     | core.bilibili_client:load_credential:41 - Loaded saved Bilibili credential
+2026-04-13 21:30:17.082 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 21:30:17.523 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 21:30:18.086 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 16 artworks from day ranking
+2026-04-13 21:30:18.087 | INFO     | core.pixiv_client:fetch_artworks:170 - After day ranking filter: 0 IP artworks
+2026-04-13 21:30:18.352 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 16 artworks from week ranking
+2026-04-13 21:30:18.352 | INFO     | core.pixiv_client:fetch_artworks:170 - After week ranking filter: 0 IP artworks
+2026-04-13 21:30:18.352 | INFO     | core.pixiv_client:fetch_artworks:174 - Ranking gave 0 works, searching by IP tags (popular)...
+2026-04-13 21:30:18.658 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag 'ゼンレスゾーンゼロ' (sort=popular_desc)
+2026-04-13 21:30:18.659 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag 'ゼンレスゾーンゼロ': total = 9
+2026-04-13 21:30:18.931 | INFO     | core.pixiv_client:search_by_tag:96 - Found 10 artworks for tag '終末地' (sort=popular_desc)
+2026-04-13 21:30:18.931 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '終末地': total = 19
+2026-04-13 21:30:19.212 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '鳴潮' (sort=popular_desc)
+2026-04-13 21:30:19.212 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '鳴潮': total = 28
+2026-04-13 21:30:19.601 | INFO     | core.pixiv_client:search_by_tag:96 - Found 8 artworks for tag '原神' (sort=popular_desc)
+2026-04-13 21:30:19.601 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '原神': total = 35
+2026-04-13 21:30:19.953 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '崩壊：スターレイル' (sort=popular_desc)
+2026-04-13 21:30:19.953 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '崩壊：スターレイル': total = 44
+2026-04-13 21:30:19.953 | INFO     | core.pixiv_client:fetch_artworks:193 - Total unique artworks fetched: 44
+2026-04-13 21:30:19.958 | INFO     | __main__:run:154 - Already published 18 artworks on record
+2026-04-13 21:30:19.958 | INFO     | __main__:run:160 - Skipping already published: ゼンゼロ落書きまとめ (143517080)
+2026-04-13 21:30:19.958 | INFO     | __main__:run:160 - Skipping already published: イドリーと (143516930)
+2026-04-13 21:30:19.960 | INFO     | __main__:run:160 - Skipping already published: イドリー (143516030)
+2026-04-13 21:30:19.960 | INFO     | __main__:run:160 - Skipping already published: 柚葉ちゃん (143515192)
+2026-04-13 21:30:19.960 | INFO     | __main__:run:160 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 21:30:19.960 | INFO     | __main__:run:160 - Skipping already published: 莊天師武陵一穿四🤩 (143485861)
+2026-04-13 21:30:19.960 | INFO     | __main__:run:160 - Skipping already published: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-13 21:30:19.960 | INFO     | __main__:run:160 - Skipping already published: 無題 (143515796)
+2026-04-13 21:30:19.960 | INFO     | __main__:run:160 - Skipping already published: 聚爆的诱惑 (143514753)
+2026-04-13 21:30:19.960 | INFO     | __main__:run:160 - Skipping already published: 西格莉卡Sigrika (143513304)
+2026-04-13 21:30:19.960 | INFO     | __main__:run:160 - Skipping already published: 漂泊者 (143511312)
+2026-04-13 21:30:19.960 | INFO     | __main__:run:160 - Skipping already published: 🪼 (143507061)
+2026-04-13 21:30:19.960 | INFO     | __main__:run:171 - Candidate artworks after filtering: 32
+2026-04-13 21:30:23.961 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143507754_0.jpg: score=0.0065 -> SAFE
+2026-04-13 21:30:26.287 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143507754_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:30:27.840 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143419851_0.jpg: score=0.0476 -> SAFE
+2026-04-13 21:30:29.430 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143419851_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:30:30.566 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143509797_0.jpg: score=0.3267 -> BORDERLINE
+2026-04-13 21:30:31.984 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143509797_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:30:35.039 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143518032_0.jpg: score=0.0346 -> SAFE
+2026-04-13 21:30:35.155 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143518032_1.jpg: score=0.0324 -> SAFE
+2026-04-13 21:30:35.269 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143518032_2.jpg: score=0.0115 -> SAFE
+2026-04-13 21:30:37.018 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143518032_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:30:39.364 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143497254_0.jpg: score=0.0760 -> SAFE
+2026-04-13 21:30:41.363 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143497254_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:30:43.670 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143505301_0.jpg: score=0.0137 -> SAFE
+2026-04-13 21:30:43.771 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143505301_1.jpg: score=0.0217 -> SAFE
+2026-04-13 21:30:45.287 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143505301_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:30:49.594 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517014_0.jpg: score=0.0524 -> SAFE
+2026-04-13 21:30:51.372 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143517014_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:30:52.264 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517293_0.jpg: score=0.1764 -> SAFE
+2026-04-13 21:30:54.005 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143517293_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:30:55.826 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143508168_0.jpg: score=0.0099 -> SAFE
+2026-04-13 21:30:57.354 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143508168_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:30:58.521 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517855_0.jpg: score=0.0398 -> SAFE
+2026-04-13 21:31:00.584 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143517855_0.jpg: REJECT, reason=整体画工为粗糙草稿，线条不够流畅干净，色彩未体现，属于低质量AI图或未完成作品, copy=True
+2026-04-13 21:31:00.586 | INFO     | __main__:run:195 - Rejected by content check: おくすりしぐぃん💊 - 整体画工为粗糙草稿，线条不够流畅干净，色彩未体现，属于低质量AI图或未完成作品
+2026-04-13 21:31:15.184 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143518292_0.jpg: score=0.0067 -> SAFE
+2026-04-13 21:31:15.411 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143518292_1.jpg: score=0.0058 -> SAFE
+2026-04-13 21:31:15.624 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143518292_2.jpg: score=0.0044 -> SAFE
+2026-04-13 21:31:17.490 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143518292_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:31:18.498 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143428804_0.jpg: score=0.0368 -> SAFE
+2026-04-13 21:31:20.152 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143428804_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:31:20.154 | INFO     | __main__:run:203 - Ready to publish: 11 artworks (target: 8 image + 3 video)
+2026-04-13 21:31:20.154 | INFO     | __main__:run:219 - [Image 1/8] Publishing: Please take me... (143507754)
+2026-04-13 21:31:22.109 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:31:22.109 | INFO     | __main__:run:224 - [Image 1/8] Published successfully
+2026-04-13 21:31:22.111 | INFO     | __main__:run:230 - Sleeping 60s before next publish...
+2026-04-13 21:32:22.111 | INFO     | __main__:run:219 - [Image 2/8] Publishing: 🐧エンドフィールドの予告番組を見ながら管理人ちゃん描く配信🖤 (143419851)
+2026-04-13 21:32:23.557 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:32:23.558 | INFO     | __main__:run:224 - [Image 2/8] Published successfully
+2026-04-13 21:32:23.558 | INFO     | __main__:run:230 - Sleeping 60s before next publish...
+2026-04-13 21:33:23.559 | INFO     | __main__:run:219 - [Image 3/8] Publishing: フローライト (143509797)
+2026-04-13 21:33:25.195 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:33:25.196 | INFO     | __main__:run:224 - [Image 3/8] Published successfully
+2026-04-13 21:33:25.196 | INFO     | __main__:run:230 - Sleeping 60s before next publish...
+2026-04-13 21:34:25.197 | INFO     | __main__:run:219 - [Image 4/8] Publishing: 必死の覚悟　ホタル (143518032)
+2026-04-13 21:34:28.228 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:34:28.229 | INFO     | __main__:run:224 - [Image 4/8] Published successfully
+2026-04-13 21:34:28.229 | INFO     | __main__:run:230 - Sleeping 60s before next publish...
+2026-04-13 21:35:28.230 | INFO     | __main__:run:219 - [Image 5/8] Publishing: 年輕的巨獸代理人 (143497254)
+2026-04-13 21:35:32.975 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:35:32.975 | INFO     | __main__:run:224 - [Image 5/8] Published successfully
+2026-04-13 21:35:32.976 | INFO     | __main__:run:230 - Sleeping 60s before next publish...
+2026-04-13 21:36:32.977 | INFO     | __main__:run:219 - [Image 6/8] Publishing: 明日方舟终末地小红帽洛茜~QQ小鼻嘎~~ (143505301)
+2026-04-13 21:36:38.213 | WARNING  | core.bilibili_client:publish_image_dynamic:112 - Publish attempt 1/3 timed out
+2026-04-13 21:36:38.213 | INFO     | core.bilibili_client:publish_image_dynamic:114 - Retrying in 10s...
+2026-04-13 21:36:55.128 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:36:55.128 | INFO     | __main__:run:224 - [Image 6/8] Published successfully
+2026-04-13 21:36:55.128 | INFO     | __main__:run:230 - Sleeping 60s before next publish...
+2026-04-13 21:37:55.130 | INFO     | __main__:run:219 - [Image 7/8] Publishing: 에이메스 / エイメス (143517014)
+2026-04-13 21:37:57.927 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:37:57.928 | INFO     | __main__:run:224 - [Image 7/8] Published successfully
+2026-04-13 21:37:57.928 | INFO     | __main__:run:230 - Sleeping 60s before next publish...
+2026-04-13 21:38:57.929 | INFO     | __main__:run:219 - [Image 8/8] Publishing: ラミル (143517293)
+2026-04-13 21:39:02.742 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:39:02.742 | INFO     | __main__:run:224 - [Image 8/8] Published successfully
+2026-04-13 21:39:02.743 | INFO     | __main__:run:230 - Sleeping 60s before next publish...
+2026-04-13 21:40:02.743 | INFO     | __main__:run:235 - [Video 1/3] Publishing: ヒアンシー Hyacine (143508168)
+2026-04-13 21:40:02.857 | INFO     | core.video_generator:generate_video:105 - Generating video with 1 clips...
+2026-04-13 21:40:17.994 | INFO     | core.video_generator:generate_video:114 - Video saved: D:\pixiv-to-bilibili\storage\videos\output.mp4 (1MB)
+2026-04-13 21:40:18.000 | ERROR    | __main__:run:242 - [Video 1/3] Failed: VideoMeta.__init__() got an unexpected keyword argument 'tag'
+2026-04-13 21:40:18.000 | INFO     | __main__:run:246 - Sleeping 60s before next publish...
+2026-04-13 21:41:18.001 | INFO     | __main__:run:235 - [Video 2/3] Publishing: ローエンくん (143518292)
+2026-04-13 21:41:18.973 | INFO     | core.video_generator:generate_video:105 - Generating video with 3 clips...
+2026-04-13 21:42:49.383 | INFO     | core.video_generator:generate_video:114 - Video saved: D:\pixiv-to-bilibili\storage\videos\output.mp4 (4MB)
+2026-04-13 21:42:49.397 | ERROR    | __main__:run:242 - [Video 2/3] Failed: VideoMeta.__init__() got an unexpected keyword argument 'tag'
+2026-04-13 21:42:49.397 | INFO     | __main__:run:246 - Sleeping 60s before next publish...
+2026-04-13 21:47:50.239 | INFO     | __main__:run:137 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 21:47:50.239 | INFO     | core.bilibili_client:load_credential:41 - Loaded saved Bilibili credential
+2026-04-13 21:47:50.259 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 21:47:51.181 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 21:47:51.882 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 16 artworks from day ranking
+2026-04-13 21:47:51.882 | INFO     | core.pixiv_client:fetch_artworks:170 - After day ranking filter: 0 IP artworks
+2026-04-13 21:47:52.150 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 16 artworks from week ranking
+2026-04-13 21:47:52.150 | INFO     | core.pixiv_client:fetch_artworks:170 - After week ranking filter: 0 IP artworks
+2026-04-13 21:47:52.151 | INFO     | core.pixiv_client:fetch_artworks:174 - Ranking gave 0 works, searching by IP tags (popular)...
+2026-04-13 21:47:52.464 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '原神' (sort=popular_desc)
+2026-04-13 21:47:52.464 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '原神': total = 9
+2026-04-13 21:47:52.778 | INFO     | core.pixiv_client:search_by_tag:96 - Found 10 artworks for tag 'ゼンレスゾーンゼロ' (sort=popular_desc)
+2026-04-13 21:47:52.778 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag 'ゼンレスゾーンゼロ': total = 19
+2026-04-13 21:47:53.095 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '崩壊：スターレイル' (sort=popular_desc)
+2026-04-13 21:47:53.096 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '崩壊：スターレイル': total = 28
+2026-04-13 21:47:53.485 | INFO     | core.pixiv_client:search_by_tag:96 - Found 10 artworks for tag '終末地' (sort=popular_desc)
+2026-04-13 21:47:53.485 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '終末地': total = 38
+2026-04-13 21:47:53.910 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '鳴潮' (sort=popular_desc)
+2026-04-13 21:47:53.911 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '鳴潮': total = 47
+2026-04-13 21:47:53.911 | INFO     | core.pixiv_client:fetch_artworks:193 - Total unique artworks fetched: 47
+2026-04-13 21:47:53.918 | INFO     | __main__:run:155 - Already published 26 artworks on record
+2026-04-13 21:47:53.918 | INFO     | __main__:run:161 - Skipping already published: ラミル (143517293)
+2026-04-13 21:47:53.918 | INFO     | __main__:run:161 - Skipping already published: ゼンゼロ落書きまとめ (143517080)
+2026-04-13 21:47:53.918 | INFO     | __main__:run:161 - Skipping already published: イドリーと (143516930)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: イドリー (143516030)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: 柚葉ちゃん (143515192)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: 必死の覚悟　ホタル (143518032)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: フローライト (143509797)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: 明日方舟终末地小红帽洛茜~QQ小鼻嘎~~ (143505301)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: 年輕的巨獸代理人 (143497254)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: 莊天師武陵一穿四🤩 (143485861)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: 🐧エンドフィールドの予告番組を見ながら管理人ちゃん描く配信🖤 (143419851)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: 에이메스 / エイメス (143517014)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: 無題 (143515796)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: 聚爆的诱惑 (143514753)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: 西格莉卡Sigrika (143513304)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: 漂泊者 (143511312)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: Please take me... (143507754)
+2026-04-13 21:47:53.919 | INFO     | __main__:run:161 - Skipping already published: 🪼 (143507061)
+2026-04-13 21:47:53.920 | INFO     | __main__:run:172 - Candidate artworks after filtering: 27
+2026-04-13 21:48:00.484 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519320_0.jpg: score=0.0165 -> SAFE
+2026-04-13 21:48:00.581 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519320_1.jpg: score=0.0009 -> SAFE
+2026-04-13 21:48:02.392 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143519320_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:48:03.164 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519314_0.jpg: score=0.0010 -> SAFE
+2026-04-13 21:48:05.106 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143519314_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:48:06.074 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143428804_0.jpg: score=0.0368 -> SAFE
+2026-04-13 21:48:07.752 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143428804_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:48:18.210 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143518091_0.jpg: score=0.3480 -> BORDERLINE
+2026-04-13 21:48:18.313 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143518091_1.jpg: score=0.3440 -> BORDERLINE
+2026-04-13 21:48:18.410 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143518091_2.jpg: score=0.0047 -> SAFE
+2026-04-13 21:48:18.510 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143518091_3.jpg: score=0.0080 -> SAFE
+2026-04-13 21:48:18.607 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143518091_4.jpg: score=0.0059 -> SAFE
+2026-04-13 21:48:18.710 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143518091_5.jpg: score=0.0045 -> SAFE
+2026-04-13 21:48:18.811 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143518091_6.jpg: score=0.0020 -> SAFE
+2026-04-13 21:48:20.291 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143518091_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:48:21.175 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143518831_0.jpg: score=0.0137 -> SAFE
+2026-04-13 21:48:22.915 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143518831_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:48:24.037 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519221_0.jpg: score=0.0702 -> SAFE
+2026-04-13 21:48:25.511 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143519221_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:48:26.160 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143513160_0.jpg: score=0.4122 -> BORDERLINE
+2026-04-13 21:48:27.717 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143513160_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:48:28.293 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143510090_0.jpg: score=0.0014 -> SAFE
+2026-04-13 21:48:39.320 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143510090_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:48:40.249 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519611_0.jpg: score=0.0089 -> SAFE
+2026-04-13 21:48:58.861 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143519611_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:49:00.886 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143515333_0.jpg: score=0.0033 -> SAFE
+2026-04-13 21:49:02.246 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143515333_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:49:02.964 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517855_0.jpg: score=0.0398 -> SAFE
+2026-04-13 21:49:04.625 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143517855_0.jpg: REJECT, reason=整体画工为粗糙草稿，线条不流畅，色彩未体现，面部表情和细节处理不到位，不符合专业画师审核标准。, copy=True
+2026-04-13 21:49:04.627 | INFO     | __main__:run:196 - Rejected by content check: おくすりしぐぃん💊 - 整体画工为粗糙草稿，线条不流畅，色彩未体现，面部表情和细节处理不到位，不符合专业画师审核标准。
+2026-04-13 21:49:06.179 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519285_0.jpg: score=0.0078 -> SAFE
+2026-04-13 21:49:08.191 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143519285_0.jpg: PASS, reason=, copy=True
+2026-04-13 21:49:08.193 | INFO     | __main__:run:204 - Ready to publish: 11 artworks (target: 8 image + 3 video)
+2026-04-13 21:49:08.193 | INFO     | __main__:run:220 - [Image 1/8] Publishing: 莫宁 (143519320)
+2026-04-13 21:49:10.989 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:49:10.989 | INFO     | __main__:run:225 - [Image 1/8] Published successfully
+2026-04-13 21:49:10.991 | INFO     | __main__:run:231 - Sleeping 60s before next publish...
+2026-04-13 21:50:10.991 | INFO     | __main__:run:220 - [Image 2/8] Publishing: Cersea~ (143519314)
+2026-04-13 21:50:12.822 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:50:12.824 | INFO     | __main__:run:225 - [Image 2/8] Published successfully
+2026-04-13 21:50:12.824 | INFO     | __main__:run:231 - Sleeping 60s before next publish...
+2026-04-13 21:51:12.824 | INFO     | __main__:run:220 - [Image 3/8] Publishing: ロッシ (143428804)
+2026-04-13 21:51:14.640 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:51:14.641 | INFO     | __main__:run:225 - [Image 3/8] Published successfully
+2026-04-13 21:51:14.641 | INFO     | __main__:run:231 - Sleeping 60s before next publish...
+2026-04-13 21:52:14.641 | INFO     | __main__:run:220 - [Image 4/8] Publishing: 纳西妲 (143518091)
+2026-04-13 21:52:22.216 | WARNING  | core.bilibili_client:publish_image_dynamic:112 - Publish attempt 1/3 timed out
+2026-04-13 21:52:22.216 | INFO     | core.bilibili_client:publish_image_dynamic:114 - Retrying in 10s...
+2026-04-13 21:52:58.005 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:52:58.006 | INFO     | __main__:run:225 - [Image 4/8] Published successfully
+2026-04-13 21:52:58.006 | INFO     | __main__:run:231 - Sleeping 60s before next publish...
+2026-04-13 21:53:58.007 | INFO     | __main__:run:220 - [Image 5/8] Publishing: ザオちゃん　お人形さん (143518831)
+2026-04-13 21:54:00.459 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:54:00.459 | INFO     | __main__:run:225 - [Image 5/8] Published successfully
+2026-04-13 21:54:00.459 | INFO     | __main__:run:231 - Sleeping 60s before next publish...
+2026-04-13 21:55:00.461 | INFO     | __main__:run:220 - [Image 6/8] Publishing: 尼可 (143519221)
+2026-04-13 21:55:03.119 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:55:03.122 | INFO     | __main__:run:225 - [Image 6/8] Published successfully
+2026-04-13 21:55:03.122 | INFO     | __main__:run:231 - Sleeping 60s before next publish...
+2026-04-13 21:56:03.123 | INFO     | __main__:run:220 - [Image 7/8] Publishing: トリスビアス (143513160)
+2026-04-13 21:56:04.234 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:56:04.234 | INFO     | __main__:run:225 - [Image 7/8] Published successfully
+2026-04-13 21:56:04.236 | INFO     | __main__:run:231 - Sleeping 60s before next publish...
+2026-04-13 21:57:04.236 | INFO     | __main__:run:220 - [Image 8/8] Publishing: 깨픆깩 (143510090)
+2026-04-13 21:57:05.237 | INFO     | core.bilibili_client:publish_image_dynamic:109 - Published image dynamic: id=unknown
+2026-04-13 21:57:05.238 | INFO     | __main__:run:225 - [Image 8/8] Published successfully
+2026-04-13 21:57:05.238 | INFO     | __main__:run:231 - Sleeping 60s before next publish...
+2026-04-13 21:58:05.239 | INFO     | __main__:run:236 - [Video 1/3] Publishing: 無題 (143519611)
+2026-04-13 21:58:05.241 | INFO     | core.video_generator:generate_video:122 - Video resolution: 1690x1080 (from original image ratio)
+2026-04-13 21:58:05.330 | INFO     | core.video_generator:generate_video:136 - Generating video with 1 clips...
+2026-04-13 21:58:17.987 | INFO     | core.video_generator:generate_video:145 - Video saved: D:\pixiv-to-bilibili\storage\videos\output.mp4 (0MB)
+2026-04-13 21:58:18.509 | ERROR    | core.bilibili_client:publish_video_dynamic:174 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 21:58:18.510 | INFO     | __main__:run:241 - [Video 1/3] Published successfully
+2026-04-13 21:58:18.510 | INFO     | __main__:run:247 - Sleeping 60s before next publish...
+2026-04-13 21:59:18.511 | INFO     | __main__:run:236 - [Video 2/3] Publishing: ほっぺつんつんされてるホタル (143515333)
+2026-04-13 21:59:18.511 | INFO     | core.video_generator:generate_video:122 - Video resolution: 1080x1080 (from original image ratio)
+2026-04-13 21:59:18.610 | INFO     | core.video_generator:generate_video:136 - Generating video with 1 clips...
+2026-04-13 21:59:27.904 | INFO     | core.video_generator:generate_video:145 - Video saved: D:\pixiv-to-bilibili\storage\videos\output.mp4 (0MB)
+2026-04-13 21:59:28.286 | ERROR    | core.bilibili_client:publish_video_dynamic:174 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 21:59:28.286 | INFO     | __main__:run:241 - [Video 2/3] Published successfully
+2026-04-13 21:59:28.287 | INFO     | __main__:run:247 - Sleeping 60s before next publish...
+2026-04-13 22:03:00.790 | INFO     | __main__:run:139 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 22:03:00.790 | INFO     | core.bilibili_client:load_credential:42 - Loaded saved Bilibili credential
+2026-04-13 22:03:00.808 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 22:03:01.266 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 22:03:01.814 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 16 artworks from day ranking
+2026-04-13 22:03:01.814 | INFO     | core.pixiv_client:fetch_artworks:170 - After day ranking filter: 0 IP artworks
+2026-04-13 22:03:02.083 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 16 artworks from week ranking
+2026-04-13 22:03:02.084 | INFO     | core.pixiv_client:fetch_artworks:170 - After week ranking filter: 0 IP artworks
+2026-04-13 22:03:02.084 | INFO     | core.pixiv_client:fetch_artworks:174 - Ranking gave 0 works, searching by IP tags (popular)...
+2026-04-13 22:03:02.394 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '鳴潮' (sort=popular_desc)
+2026-04-13 22:03:02.395 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '鳴潮': total = 9
+2026-04-13 22:03:02.685 | INFO     | core.pixiv_client:search_by_tag:96 - Found 10 artworks for tag '終末地' (sort=popular_desc)
+2026-04-13 22:03:02.685 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '終末地': total = 19
+2026-04-13 22:03:03.002 | INFO     | core.pixiv_client:search_by_tag:96 - Found 10 artworks for tag 'ゼンレスゾーンゼロ' (sort=popular_desc)
+2026-04-13 22:03:03.003 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag 'ゼンレスゾーンゼロ': total = 29
+2026-04-13 22:03:03.406 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '崩壊：スターレイル' (sort=popular_desc)
+2026-04-13 22:03:03.406 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '崩壊：スターレイル': total = 38
+2026-04-13 22:03:03.757 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '原神' (sort=popular_desc)
+2026-04-13 22:03:03.758 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '原神': total = 47
+2026-04-13 22:03:03.758 | INFO     | core.pixiv_client:fetch_artworks:193 - Total unique artworks fetched: 47
+2026-04-13 22:03:03.764 | INFO     | __main__:run:157 - Already published 36 artworks on record
+2026-04-13 22:03:03.764 | INFO     | __main__:run:163 - Skipping already published: 莫宁 (143519320)
+2026-04-13 22:03:03.764 | INFO     | __main__:run:163 - Skipping already published: 에이메스 / エイメス (143517014)
+2026-04-13 22:03:03.765 | INFO     | __main__:run:163 - Skipping already published: 無題 (143515796)
+2026-04-13 22:03:03.765 | INFO     | __main__:run:163 - Skipping already published: 聚爆的诱惑 (143514753)
+2026-04-13 22:03:03.765 | INFO     | __main__:run:163 - Skipping already published: 西格莉卡Sigrika (143513304)
+2026-04-13 22:03:03.765 | INFO     | __main__:run:163 - Skipping already published: 漂泊者 (143511312)
+2026-04-13 22:03:03.765 | INFO     | __main__:run:163 - Skipping already published: フローライト (143509797)
+2026-04-13 22:03:03.765 | INFO     | __main__:run:163 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 22:03:03.765 | INFO     | __main__:run:163 - Skipping already published: 明日方舟终末地小红帽洛茜~QQ小鼻嘎~~ (143505301)
+2026-04-13 22:03:03.765 | INFO     | __main__:run:163 - Skipping already published: 年輕的巨獸代理人 (143497254)
+2026-04-13 22:03:03.765 | INFO     | __main__:run:163 - Skipping already published: 莊天師武陵一穿四🤩 (143485861)
+2026-04-13 22:03:03.765 | INFO     | __main__:run:163 - Skipping already published: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-13 22:03:03.765 | INFO     | __main__:run:163 - Skipping already published: ロッシ (143428804)
+2026-04-13 22:03:03.766 | INFO     | __main__:run:163 - Skipping already published: 🐧エンドフィールドの予告番組を見ながら管理人ちゃん描く配信🖤 (143419851)
+2026-04-13 22:03:03.766 | INFO     | __main__:run:163 - Skipping already published: Cersea~ (143519314)
+2026-04-13 22:03:03.766 | INFO     | __main__:run:163 - Skipping already published: ザオちゃん　お人形さん (143518831)
+2026-04-13 22:03:03.766 | INFO     | __main__:run:163 - Skipping already published: ラミル (143517293)
+2026-04-13 22:03:03.766 | INFO     | __main__:run:163 - Skipping already published: ゼンゼロ落書きまとめ (143517080)
+2026-04-13 22:03:03.766 | INFO     | __main__:run:163 - Skipping already published: イドリーと (143516930)
+2026-04-13 22:03:03.766 | INFO     | __main__:run:163 - Skipping already published: 無題 (143519611)
+2026-04-13 22:03:03.766 | INFO     | __main__:run:163 - Skipping already published: 必死の覚悟　ホタル (143518032)
+2026-04-13 22:03:03.766 | INFO     | __main__:run:163 - Skipping already published: ほっぺつんつんされてるホタル (143515333)
+2026-04-13 22:03:03.766 | INFO     | __main__:run:163 - Skipping already published: トリスビアス (143513160)
+2026-04-13 22:03:03.766 | INFO     | __main__:run:163 - Skipping already published: 깨픆깩 (143510090)
+2026-04-13 22:03:03.766 | INFO     | __main__:run:163 - Skipping already published: 尼可 (143519221)
+2026-04-13 22:03:03.766 | INFO     | __main__:run:174 - Candidate artworks after filtering: 22
+2026-04-13 22:03:06.070 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519285_0.jpg: score=0.0078 -> SAFE
+2026-04-13 22:03:08.044 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143519285_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:03:08.636 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143516635_0.jpg: score=0.1399 -> SAFE
+2026-04-13 22:03:09.855 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143516635_0.jpg: REJECT, reason=整体画工为像素风格，不符合专业画师对线条流畅、色彩协调的要求, copy=True
+2026-04-13 22:03:09.856 | INFO     | __main__:run:198 - Rejected by content check: ンナ！ボンプ便！ - 整体画工为像素风格，不符合专业画师对线条流畅、色彩协调的要求
+2026-04-13 22:03:11.015 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519575_0.jpg: score=0.0037 -> SAFE
+2026-04-13 22:03:13.111 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143519575_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:03:14.110 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519000_0.jpg: score=0.0232 -> SAFE
+2026-04-13 22:03:15.900 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143519000_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:03:16.758 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143508313_0.jpg: score=0.1192 -> SAFE
+2026-04-13 22:03:18.057 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143508313_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:03:18.775 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519998_0.jpg: score=0.1665 -> SAFE
+2026-04-13 22:03:20.044 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143519998_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:03:30.044 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143462992_0.jpg: score=0.0061 -> SAFE
+2026-04-13 22:03:33.178 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143462992_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:03:33.993 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143510018_0.jpg: score=0.2650 -> SAFE
+2026-04-13 22:03:35.988 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143510018_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:03:36.954 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519498_0.jpg: score=0.0156 -> SAFE
+2026-04-13 22:03:39.036 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143519498_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:03:40.500 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143516489_0.jpg: score=0.1914 -> SAFE
+2026-04-13 22:03:41.978 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143516489_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:03:44.590 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519340_0.jpg: score=0.0245 -> SAFE
+2026-04-13 22:03:47.033 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143519340_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:03:48.931 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143419423_0.jpg: score=0.0948 -> SAFE
+2026-04-13 22:03:49.025 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143419423_1.jpg: score=0.0009 -> SAFE
+2026-04-13 22:03:50.450 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143419423_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:03:50.452 | INFO     | __main__:run:206 - Ready to publish: 11 artworks (target: 8 image + 3 video)
+2026-04-13 22:03:50.452 | INFO     | __main__:run:222 - [Image 1/8] Publishing: アナイクス (143519285)
+2026-04-13 22:03:53.688 | INFO     | core.bilibili_client:publish_image_dynamic:110 - Published image dynamic: id=unknown
+2026-04-13 22:03:53.688 | INFO     | __main__:run:227 - [Image 1/8] Published successfully
+2026-04-13 22:03:53.689 | INFO     | __main__:run:233 - Sleeping 60s before next publish...
+2026-04-13 22:04:53.689 | INFO     | __main__:run:222 - [Image 2/8] Publishing: Hoshimi Miyabi (143519575)
+2026-04-13 22:04:57.609 | INFO     | core.bilibili_client:publish_image_dynamic:110 - Published image dynamic: id=unknown
+2026-04-13 22:04:57.610 | INFO     | __main__:run:227 - [Image 2/8] Published successfully
+2026-04-13 22:04:57.610 | INFO     | __main__:run:233 - Sleeping 60s before next publish...
+2026-04-13 22:05:57.611 | INFO     | __main__:run:222 - [Image 3/8] Publishing: 2025.12 アルハイゼン (143519000)
+2026-04-13 22:06:03.221 | WARNING  | core.bilibili_client:publish_image_dynamic:113 - Publish attempt 1/3 timed out
+2026-04-13 22:06:03.221 | INFO     | core.bilibili_client:publish_image_dynamic:115 - Retrying in 10s...
+2026-04-13 22:06:19.213 | WARNING  | core.bilibili_client:publish_image_dynamic:113 - Publish attempt 2/3 timed out
+2026-04-13 22:06:19.213 | INFO     | core.bilibili_client:publish_image_dynamic:115 - Retrying in 10s...
+2026-04-13 22:06:35.219 | WARNING  | core.bilibili_client:publish_image_dynamic:113 - Publish attempt 3/3 timed out
+2026-04-13 22:06:35.219 | ERROR    | core.bilibili_client:publish_image_dynamic:124 - All publish attempts failed
+2026-04-13 22:06:35.221 | INFO     | __main__:run:227 - [Image 3/8] Published successfully
+2026-04-13 22:06:35.221 | INFO     | __main__:run:233 - Sleeping 60s before next publish...
+2026-04-13 22:10:11.639 | INFO     | __main__:run:139 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 22:10:11.640 | INFO     | core.bilibili_client:load_credential:42 - Loaded saved Bilibili credential
+2026-04-13 22:10:11.658 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 22:10:12.099 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 22:10:12.539 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 16 artworks from day ranking
+2026-04-13 22:10:12.539 | INFO     | core.pixiv_client:fetch_artworks:170 - After day ranking filter: 0 IP artworks
+2026-04-13 22:10:12.809 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 16 artworks from week ranking
+2026-04-13 22:10:12.809 | INFO     | core.pixiv_client:fetch_artworks:170 - After week ranking filter: 0 IP artworks
+2026-04-13 22:10:12.810 | INFO     | core.pixiv_client:fetch_artworks:174 - Ranking gave 0 works, searching by IP tags (popular)...
+2026-04-13 22:10:13.336 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '崩壊：スターレイル' (sort=popular_desc)
+2026-04-13 22:10:13.336 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '崩壊：スターレイル': total = 9
+2026-04-13 22:10:13.686 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '原神' (sort=popular_desc)
+2026-04-13 22:10:13.686 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '原神': total = 18
+2026-04-13 22:10:13.946 | INFO     | core.pixiv_client:search_by_tag:96 - Found 10 artworks for tag 'ゼンレスゾーンゼロ' (sort=popular_desc)
+2026-04-13 22:10:13.948 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag 'ゼンレスゾーンゼロ': total = 28
+2026-04-13 22:10:14.278 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '鳴潮' (sort=popular_desc)
+2026-04-13 22:10:14.278 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '鳴潮': total = 37
+2026-04-13 22:10:14.528 | INFO     | core.pixiv_client:search_by_tag:96 - Found 10 artworks for tag '終末地' (sort=popular_desc)
+2026-04-13 22:10:14.529 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '終末地': total = 47
+2026-04-13 22:10:14.529 | INFO     | core.pixiv_client:fetch_artworks:193 - Total unique artworks fetched: 47
+2026-04-13 22:10:14.535 | INFO     | __main__:run:157 - Already published 39 artworks on record
+2026-04-13 22:10:14.535 | INFO     | __main__:run:163 - Skipping already published: 無題 (143519611)
+2026-04-13 22:10:14.535 | INFO     | __main__:run:163 - Skipping already published: アナイクス (143519285)
+2026-04-13 22:10:14.536 | INFO     | __main__:run:163 - Skipping already published: 必死の覚悟　ホタル (143518032)
+2026-04-13 22:10:14.536 | INFO     | __main__:run:163 - Skipping already published: ほっぺつんつんされてるホタル (143515333)
+2026-04-13 22:10:14.536 | INFO     | __main__:run:163 - Skipping already published: トリスビアス (143513160)
+2026-04-13 22:10:14.536 | INFO     | __main__:run:163 - Skipping already published: 깨픆깩 (143510090)
+2026-04-13 22:10:14.536 | INFO     | __main__:run:163 - Skipping already published: Hoshimi Miyabi (143519575)
+2026-04-13 22:10:14.536 | INFO     | __main__:run:163 - Skipping already published: Cersea~ (143519314)
+2026-04-13 22:10:14.536 | INFO     | __main__:run:163 - Skipping already published: ザオちゃん　お人形さん (143518831)
+2026-04-13 22:10:14.537 | INFO     | __main__:run:163 - Skipping already published: ラミル (143517293)
+2026-04-13 22:10:14.537 | INFO     | __main__:run:163 - Skipping already published: ゼンゼロ落書きまとめ (143517080)
+2026-04-13 22:10:14.537 | INFO     | __main__:run:163 - Skipping already published: イドリーと (143516930)
+2026-04-13 22:10:14.537 | INFO     | __main__:run:163 - Skipping already published: 莫宁 (143519320)
+2026-04-13 22:10:14.537 | INFO     | __main__:run:163 - Skipping already published: 에이메스 / エイメス (143517014)
+2026-04-13 22:10:14.537 | INFO     | __main__:run:163 - Skipping already published: 無題 (143515796)
+2026-04-13 22:10:14.537 | INFO     | __main__:run:163 - Skipping already published: 聚爆的诱惑 (143514753)
+2026-04-13 22:10:14.538 | INFO     | __main__:run:163 - Skipping already published: 西格莉卡Sigrika (143513304)
+2026-04-13 22:10:14.538 | INFO     | __main__:run:163 - Skipping already published: フローライト (143509797)
+2026-04-13 22:10:14.538 | INFO     | __main__:run:163 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 22:10:14.538 | INFO     | __main__:run:163 - Skipping already published: 明日方舟终末地小红帽洛茜~QQ小鼻嘎~~ (143505301)
+2026-04-13 22:10:14.538 | INFO     | __main__:run:163 - Skipping already published: 年輕的巨獸代理人 (143497254)
+2026-04-13 22:10:14.538 | INFO     | __main__:run:163 - Skipping already published: 莊天師武陵一穿四🤩 (143485861)
+2026-04-13 22:10:14.538 | INFO     | __main__:run:163 - Skipping already published: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-13 22:10:14.538 | INFO     | __main__:run:163 - Skipping already published: ロッシ (143428804)
+2026-04-13 22:10:14.538 | INFO     | __main__:run:163 - Skipping already published: 🐧エンドフィールドの予告番組を見ながら管理人ちゃん描く配信🖤 (143419851)
+2026-04-13 22:10:14.539 | INFO     | __main__:run:174 - Candidate artworks after filtering: 22
+2026-04-13 22:10:18.772 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143520174_0.jpg: score=0.1723 -> SAFE
+2026-04-13 22:10:43.650 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143520174_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:10:45.565 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143508313_0.jpg: score=0.1192 -> SAFE
+2026-04-13 22:10:46.972 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143508313_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:10:49.786 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143520608_0.jpg: score=0.4443 -> BORDERLINE
+2026-04-13 22:10:51.429 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143520608_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:10:52.128 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519562_0.jpg: score=0.0047 -> SAFE
+2026-04-13 22:10:53.191 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143519562_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:10:53.193 | INFO     | __main__:run:206 - Ready to publish: 4 artworks (target: 0 image + 4 video)
+2026-04-13 22:10:53.193 | INFO     | __main__:run:239 - Fetching BGM for video dynamics...
+2026-04-13 22:10:53.943 | INFO     | core.bgm_provider:_search_bgm_videos:69 - BGM search '二次元纯音乐 BGM 钢琴': 16 suitable videos (from 20 total)
+2026-04-13 22:10:54.700 | INFO     | core.bgm_provider:_download_audio:120 - Downloaded BGM: BV1tXDXBsERA.mp4 (1.2MB)
+2026-04-13 22:10:55.451 | INFO     | __main__:run:243 - [Video 1/4] Publishing: 【原神】ドゥリンがバブすぎる件について (143520174)
+2026-04-13 22:10:55.452 | INFO     | core.video_generator:generate_video:125 - Video resolution: 1080x1440 (from original image ratio)
+2026-04-13 22:10:55.618 | INFO     | core.video_generator:generate_video:139 - Generating video with 1 clips...
+2026-04-13 22:10:55.698 | WARNING  | core.video_generator:generate_video:159 - Failed to add BGM, generating without audio: module 'moviepy.video.fx' has no attribute 'AudioFadeOut'
+2026-04-13 22:14:50.079 | INFO     | __main__:run:139 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 22:14:50.079 | INFO     | core.bilibili_client:load_credential:42 - Loaded saved Bilibili credential
+2026-04-13 22:14:50.096 | INFO     | core.pixiv_client:__init__:35 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 22:14:50.701 | INFO     | core.pixiv_client:authenticate:47 - Pixiv authenticated successfully
+2026-04-13 22:14:51.111 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 16 artworks from day ranking
+2026-04-13 22:14:51.112 | INFO     | core.pixiv_client:fetch_artworks:170 - After day ranking filter: 0 IP artworks
+2026-04-13 22:14:51.332 | INFO     | core.pixiv_client:get_ranking:74 - Fetched 16 artworks from week ranking
+2026-04-13 22:14:51.333 | INFO     | core.pixiv_client:fetch_artworks:170 - After week ranking filter: 0 IP artworks
+2026-04-13 22:14:51.333 | INFO     | core.pixiv_client:fetch_artworks:174 - Ranking gave 0 works, searching by IP tags (popular)...
+2026-04-13 22:14:51.654 | INFO     | core.pixiv_client:search_by_tag:96 - Found 10 artworks for tag '終末地' (sort=popular_desc)
+2026-04-13 22:14:51.654 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '終末地': total = 10
+2026-04-13 22:14:51.946 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '崩壊：スターレイル' (sort=popular_desc)
+2026-04-13 22:14:51.946 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '崩壊：スターレイル': total = 19
+2026-04-13 22:14:52.230 | INFO     | core.pixiv_client:search_by_tag:96 - Found 10 artworks for tag '原神' (sort=popular_desc)
+2026-04-13 22:14:52.231 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '原神': total = 29
+2026-04-13 22:14:52.551 | INFO     | core.pixiv_client:search_by_tag:96 - Found 10 artworks for tag 'ゼンレスゾーンゼロ' (sort=popular_desc)
+2026-04-13 22:14:52.551 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag 'ゼンレスゾーンゼロ': total = 39
+2026-04-13 22:14:52.805 | INFO     | core.pixiv_client:search_by_tag:96 - Found 9 artworks for tag '鳴潮' (sort=popular_desc)
+2026-04-13 22:14:52.805 | INFO     | core.pixiv_client:fetch_artworks:181 -   Tag '鳴潮': total = 48
+2026-04-13 22:14:52.805 | INFO     | core.pixiv_client:fetch_artworks:193 - Total unique artworks fetched: 48
+2026-04-13 22:14:52.806 | INFO     | __main__:run:157 - Already published 39 artworks on record
+2026-04-13 22:14:52.806 | INFO     | __main__:run:163 - Skipping already published: フローライト (143509797)
+2026-04-13 22:14:52.806 | INFO     | __main__:run:163 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 22:14:52.806 | INFO     | __main__:run:163 - Skipping already published: 明日方舟终末地小红帽洛茜~QQ小鼻嘎~~ (143505301)
+2026-04-13 22:14:52.807 | INFO     | __main__:run:163 - Skipping already published: 年輕的巨獸代理人 (143497254)
+2026-04-13 22:14:52.807 | INFO     | __main__:run:163 - Skipping already published: 莊天師武陵一穿四🤩 (143485861)
+2026-04-13 22:14:52.807 | INFO     | __main__:run:163 - Skipping already published: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-13 22:14:52.807 | INFO     | __main__:run:163 - Skipping already published: ロッシ (143428804)
+2026-04-13 22:14:52.807 | INFO     | __main__:run:163 - Skipping already published: 🐧エンドフィールドの予告番組を見ながら管理人ちゃん描く配信🖤 (143419851)
+2026-04-13 22:14:52.808 | INFO     | __main__:run:163 - Skipping already published: 無題 (143519611)
+2026-04-13 22:14:52.808 | INFO     | __main__:run:163 - Skipping already published: アナイクス (143519285)
+2026-04-13 22:14:52.808 | INFO     | __main__:run:163 - Skipping already published: 必死の覚悟　ホタル (143518032)
+2026-04-13 22:14:52.808 | INFO     | __main__:run:163 - Skipping already published: ほっぺつんつんされてるホタル (143515333)
+2026-04-13 22:14:52.808 | INFO     | __main__:run:163 - Skipping already published: トリスビアス (143513160)
+2026-04-13 22:14:52.808 | INFO     | __main__:run:163 - Skipping already published: 깨픆깩 (143510090)
+2026-04-13 22:14:52.808 | INFO     | __main__:run:163 - Skipping already published: Hoshimi Miyabi (143519575)
+2026-04-13 22:14:52.808 | INFO     | __main__:run:163 - Skipping already published: Cersea~ (143519314)
+2026-04-13 22:14:52.808 | INFO     | __main__:run:163 - Skipping already published: ザオちゃん　お人形さん (143518831)
+2026-04-13 22:14:52.808 | INFO     | __main__:run:163 - Skipping already published: ラミル (143517293)
+2026-04-13 22:14:52.808 | INFO     | __main__:run:163 - Skipping already published: ゼンゼロ落書きまとめ (143517080)
+2026-04-13 22:14:52.808 | INFO     | __main__:run:163 - Skipping already published: イドリーと (143516930)
+2026-04-13 22:14:52.808 | INFO     | __main__:run:163 - Skipping already published: 莫宁 (143519320)
+2026-04-13 22:14:52.809 | INFO     | __main__:run:163 - Skipping already published: 에이메스 / エイメス (143517014)
+2026-04-13 22:14:52.809 | INFO     | __main__:run:163 - Skipping already published: 無題 (143515796)
+2026-04-13 22:14:52.809 | INFO     | __main__:run:163 - Skipping already published: 聚爆的诱惑 (143514753)
+2026-04-13 22:14:52.809 | INFO     | __main__:run:174 - Candidate artworks after filtering: 24
+2026-04-13 22:14:58.557 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143462992_0.jpg: score=0.0061 -> SAFE
+2026-04-13 22:15:01.893 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143462992_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:15:03.428 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143520174_0.jpg: score=0.1723 -> SAFE
+2026-04-13 22:15:05.471 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143520174_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:15:10.906 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519340_0.jpg: score=0.0245 -> SAFE
+2026-04-13 22:15:14.060 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143519340_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:15:14.929 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143516489_0.jpg: score=0.1914 -> SAFE
+2026-04-13 22:15:16.417 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143516489_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:15:16.418 | INFO     | __main__:run:206 - Ready to publish: 4 artworks (target: 0 image + 4 video)
+2026-04-13 22:15:16.418 | INFO     | __main__:run:239 - Fetching BGM for video dynamics...
+2026-04-13 22:15:17.184 | INFO     | core.bgm_provider:_search_bgm_videos:77 - BGM search 'anime BGM piano relaxing': 5 suitable videos (from 20 total)
+2026-04-13 22:15:19.500 | INFO     | core.bgm_provider:_download_audio:128 - Downloaded BGM: BV1uuQ4BXEaN.mp4 (6.0MB)
+2026-04-13 22:15:20.895 | INFO     | __main__:run:243 - [Video 1/4] Publishing: Rossi (143462992)
+2026-04-13 22:15:20.897 | INFO     | core.video_generator:generate_video:126 - Video resolution: 1406x1080 (from original image ratio)
+2026-04-13 22:15:21.567 | INFO     | core.video_generator:generate_video:140 - Generating video with 1 clips...
+2026-04-13 22:15:21.641 | INFO     | core.video_generator:generate_video:158 - Added BGM: 他烧掉了一切也包括梦想 Free Sad Piano Joji Type Bea_BV1uuQ4BXEaN.mp3
+2026-04-13 22:15:59.760 | INFO     | core.video_generator:generate_video:170 - Video saved: D:\pixiv-to-bilibili\storage\videos\output.mp4 (2MB)
+2026-04-13 22:16:00.136 | ERROR    | core.bilibili_client:publish_video_dynamic:183 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 22:30:13.330 | INFO     | __main__:run:140 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 22:30:13.331 | INFO     | core.bilibili_client:load_credential:42 - Loaded saved Bilibili credential
+2026-04-13 22:30:13.349 | INFO     | core.pixiv_client:__init__:31 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 22:30:13.813 | INFO     | core.pixiv_client:authenticate:43 - Pixiv authenticated successfully
+2026-04-13 22:30:14.225 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from day ranking
+2026-04-13 22:30:14.225 | INFO     | core.pixiv_client:fetch_artworks:166 - After day ranking filter: 0 IP artworks
+2026-04-13 22:30:14.440 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from week ranking
+2026-04-13 22:30:14.440 | INFO     | core.pixiv_client:fetch_artworks:166 - After week ranking filter: 0 IP artworks
+2026-04-13 22:30:14.440 | INFO     | core.pixiv_client:fetch_artworks:170 - Ranking gave 0 works, searching by IP tags (popular)...
+2026-04-13 22:30:14.697 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '終末地' (sort=popular_desc)
+2026-04-13 22:30:14.698 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '終末地': total = 10
+2026-04-13 22:30:14.969 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag 'ゼンレスゾーンゼロ' (sort=popular_desc)
+2026-04-13 22:30:14.971 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag 'ゼンレスゾーンゼロ': total = 20
+2026-04-13 22:30:15.265 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '原神' (sort=popular_desc)
+2026-04-13 22:30:15.266 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '原神': total = 30
+2026-04-13 22:30:15.506 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '鳴潮' (sort=popular_desc)
+2026-04-13 22:30:15.507 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '鳴潮': total = 40
+2026-04-13 22:30:15.841 | INFO     | core.pixiv_client:search_by_tag:92 - Found 9 artworks for tag '崩壊：スターレイル' (sort=popular_desc)
+2026-04-13 22:30:15.841 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '崩壊：スターレイル': total = 49
+2026-04-13 22:30:15.843 | INFO     | core.pixiv_client:fetch_artworks:189 - Total unique artworks fetched: 49
+2026-04-13 22:30:15.843 | INFO     | __main__:run:158 - Already published 39 artworks on record
+2026-04-13 22:30:15.843 | INFO     | __main__:run:164 - Skipping already published: フローライト (143509797)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: 明日方舟终末地小红帽洛茜~QQ小鼻嘎~~ (143505301)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: 年輕的巨獸代理人 (143497254)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: 莊天師武陵一穿四🤩 (143485861)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: ロッシ (143428804)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: 🐧エンドフィールドの予告番組を見ながら管理人ちゃん描く配信🖤 (143419851)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: Hoshimi Miyabi (143519575)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: Cersea~ (143519314)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: ザオちゃん　お人形さん (143518831)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: ラミル (143517293)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: ゼンゼロ落書きまとめ (143517080)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: イドリーと (143516930)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: 莫宁 (143519320)
+2026-04-13 22:30:15.844 | INFO     | __main__:run:164 - Skipping already published: 에이메스 / エイメス (143517014)
+2026-04-13 22:30:15.845 | INFO     | __main__:run:164 - Skipping already published: 無題 (143515796)
+2026-04-13 22:30:15.845 | INFO     | __main__:run:164 - Skipping already published: 無題 (143519611)
+2026-04-13 22:30:15.845 | INFO     | __main__:run:164 - Skipping already published: アナイクス (143519285)
+2026-04-13 22:30:15.845 | INFO     | __main__:run:164 - Skipping already published: 必死の覚悟　ホタル (143518032)
+2026-04-13 22:30:15.845 | INFO     | __main__:run:164 - Skipping already published: ほっぺつんつんされてるホタル (143515333)
+2026-04-13 22:30:15.845 | INFO     | __main__:run:164 - Skipping already published: トリスビアス (143513160)
+2026-04-13 22:30:15.845 | INFO     | __main__:run:164 - Skipping already published: 깨픆깩 (143510090)
+2026-04-13 22:30:15.845 | INFO     | __main__:run:175 - Candidate artworks after filtering: 26
+2026-04-13 22:30:20.869 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143462992_0.jpg: score=0.0061 -> SAFE
+2026-04-13 22:30:24.615 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143462992_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:30:30.726 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521016_0.jpg: score=0.4533 -> BORDERLINE
+2026-04-13 22:30:32.493 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143521016_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:30:43.956 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521191_0.jpg: score=0.2307 -> SAFE
+2026-04-13 22:30:46.204 | WARNING  | core.content_checker:check_and_generate:115 - DashScope API call failed for 143521191_0.jpg: 400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
+2026-04-13 22:30:50.208 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521088_0.jpg: score=0.0642 -> SAFE
+2026-04-13 22:30:52.843 | INFO     | core.content_checker:check_and_generate:129 - [CheckAndGen] 143521088_0.jpg: PASS, reason=, copy=True
+2026-04-13 22:30:52.845 | INFO     | __main__:run:207 - Ready to publish: 4 artworks (target: 0 image + 4 video)
+2026-04-13 22:30:52.845 | INFO     | __main__:run:240 - Fetching BGM for video dynamics...
+2026-04-13 22:30:53.572 | INFO     | core.bgm_provider:_search_bgm_videos:71 - BGM search '塞壬唱片 Arknights BGM': 13 suitable videos (from 20 total)
+2026-04-13 22:30:54.534 | INFO     | core.bgm_provider:_download_audio:122 - Downloaded BGM: BV1vL411X7tz.mp4 (4.3MB)
+2026-04-13 22:30:55.450 | INFO     | __main__:run:244 - [Video 1/4] Publishing: Rossi (143462992)
+2026-04-13 22:30:55.451 | INFO     | core.video_generator:generate_video:188 - Video: 1406x1080, 1 image(s) x 10.0s
+2026-04-13 22:30:55.913 | INFO     | core.video_generator:generate_video:225 - Total video duration: 10.0s
+2026-04-13 22:30:55.971 | INFO     | core.video_generator:generate_video:238 - Added BGM: 【明日方舟｜吾导先路】百万级录音棚听《潜在危机》吾导先路OST—塞壬唱片-MSR_BV1vL411X7tz.mp3
+2026-04-13 22:32:16.283 | INFO     | core.video_generator:generate_video:251 - Video saved: D:\pixiv-to-bilibili\storage\videos\output.mp4 (4.8MB)
+2026-04-13 22:32:16.743 | ERROR    | core.bilibili_client:publish_video_dynamic:188 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 22:45:23.404 | INFO     | __main__:run:143 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 22:45:23.405 | INFO     | core.bilibili_client:load_credential:50 - Loaded saved Bilibili credential
+2026-04-13 22:45:23.423 | INFO     | core.pixiv_client:__init__:31 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 22:45:23.852 | INFO     | core.pixiv_client:authenticate:43 - Pixiv authenticated successfully
+2026-04-13 22:45:25.785 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from day ranking
+2026-04-13 22:45:25.785 | INFO     | core.pixiv_client:fetch_artworks:166 - After day ranking filter: 0 IP artworks
+2026-04-13 22:45:26.096 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from week ranking
+2026-04-13 22:45:26.097 | INFO     | core.pixiv_client:fetch_artworks:166 - After week ranking filter: 0 IP artworks
+2026-04-13 22:45:26.097 | INFO     | core.pixiv_client:fetch_artworks:170 - Ranking gave 0 works, searching by IP tags (popular)...
+2026-04-13 22:45:26.449 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag 'ゼンレスゾーンゼロ' (sort=popular_desc)
+2026-04-13 22:45:26.450 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag 'ゼンレスゾーンゼロ': total = 10
+2026-04-13 22:45:26.795 | INFO     | core.pixiv_client:search_by_tag:92 - Found 9 artworks for tag '崩壊：スターレイル' (sort=popular_desc)
+2026-04-13 22:45:26.796 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '崩壊：スターレイル': total = 19
+2026-04-13 22:45:27.137 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '鳴潮' (sort=popular_desc)
+2026-04-13 22:45:27.137 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '鳴潮': total = 29
+2026-04-13 22:45:27.522 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '原神' (sort=popular_desc)
+2026-04-13 22:45:27.522 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '原神': total = 39
+2026-04-13 22:45:27.836 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '終末地' (sort=popular_desc)
+2026-04-13 22:45:27.836 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '終末地': total = 49
+2026-04-13 22:45:27.837 | INFO     | core.pixiv_client:fetch_artworks:189 - Total unique artworks fetched: 49
+2026-04-13 22:45:27.838 | INFO     | __main__:run:161 - Already published 39 artworks on record
+2026-04-13 22:45:27.838 | INFO     | __main__:run:167 - Skipping already published: Hoshimi Miyabi (143519575)
+2026-04-13 22:45:27.838 | INFO     | __main__:run:167 - Skipping already published: Cersea~ (143519314)
+2026-04-13 22:45:27.838 | INFO     | __main__:run:167 - Skipping already published: ザオちゃん　お人形さん (143518831)
+2026-04-13 22:45:27.838 | INFO     | __main__:run:167 - Skipping already published: 無題 (143519611)
+2026-04-13 22:45:27.838 | INFO     | __main__:run:167 - Skipping already published: アナイクス (143519285)
+2026-04-13 22:45:27.838 | INFO     | __main__:run:167 - Skipping already published: 必死の覚悟　ホタル (143518032)
+2026-04-13 22:45:27.838 | INFO     | __main__:run:167 - Skipping already published: ほっぺつんつんされてるホタル (143515333)
+2026-04-13 22:45:27.838 | INFO     | __main__:run:167 - Skipping already published: トリスビアス (143513160)
+2026-04-13 22:45:27.838 | INFO     | __main__:run:167 - Skipping already published: 깨픆깩 (143510090)
+2026-04-13 22:45:27.839 | INFO     | __main__:run:167 - Skipping already published: 莫宁 (143519320)
+2026-04-13 22:45:27.839 | INFO     | __main__:run:167 - Skipping already published: 에이메스 / エイメス (143517014)
+2026-04-13 22:45:27.839 | INFO     | __main__:run:167 - Skipping already published: 無題 (143515796)
+2026-04-13 22:45:27.839 | INFO     | __main__:run:167 - Skipping already published: フローライト (143509797)
+2026-04-13 22:45:27.839 | INFO     | __main__:run:167 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 22:45:27.839 | INFO     | __main__:run:167 - Skipping already published: 明日方舟终末地小红帽洛茜~QQ小鼻嘎~~ (143505301)
+2026-04-13 22:45:27.839 | INFO     | __main__:run:167 - Skipping already published: 年輕的巨獸代理人 (143497254)
+2026-04-13 22:45:27.839 | INFO     | __main__:run:167 - Skipping already published: 莊天師武陵一穿四🤩 (143485861)
+2026-04-13 22:45:27.839 | INFO     | __main__:run:167 - Skipping already published: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-13 22:45:27.839 | INFO     | __main__:run:167 - Skipping already published: ロッシ (143428804)
+2026-04-13 22:45:27.839 | INFO     | __main__:run:167 - Skipping already published: 🐧エンドフィールドの予告番組を見ながら管理人ちゃん描く配信🖤 (143419851)
+2026-04-13 22:45:27.839 | INFO     | __main__:run:178 - Candidate artworks after filtering: 29
+2026-04-13 22:45:35.551 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517783_0.jpg: score=0.0103 -> SAFE
+2026-04-13 22:45:35.648 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517783_1.jpg: score=0.0184 -> SAFE
+2026-04-13 22:45:35.744 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517783_2.jpg: score=0.0023 -> SAFE
+2026-04-13 22:45:35.834 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517783_3.jpg: score=0.0164 -> SAFE
+2026-04-13 22:45:35.929 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517783_4.jpg: score=0.0188 -> SAFE
+2026-04-13 22:45:36.030 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517783_5.jpg: score=0.0214 -> SAFE
+2026-04-13 22:45:36.128 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517783_6.jpg: score=0.0019 -> SAFE
+2026-04-13 22:45:36.222 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143517783_7.jpg: score=0.0334 -> SAFE
+2026-04-13 22:45:37.928 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143517783_0.jpg: PASS, title=这汉堡吃得也太萌了吧, copy=True
+2026-04-13 22:45:42.943 | WARNING  | utils.image_utils:download_image:43 - Download attempt 1/3 failed for https://i.pximg.net/img-original/img/2026/04/13/23/24/26/143521562_p0.jpg: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 22:45:44.339 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521562_0.jpg: score=0.0219 -> SAFE
+2026-04-13 22:45:46.162 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143521562_0.jpg: PASS, title=这蓝发老婆绝了, copy=True
+2026-04-13 22:45:46.880 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521127_0.jpg: score=0.3267 -> BORDERLINE
+2026-04-13 22:45:48.280 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143521127_0.jpg: PASS, title=这CP的互动绝了, copy=True
+2026-04-13 22:45:49.147 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521044_0.jpg: score=0.1629 -> SAFE
+2026-04-13 22:45:51.095 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143521044_0.jpg: PASS, title=这芙宁娜也太绝了, copy=True
+2026-04-13 22:45:51.097 | INFO     | __main__:run:211 - Ready to publish: 4 artworks (target: 0 image + 4 video)
+2026-04-13 22:45:51.097 | INFO     | __main__:run:244 - Fetching BGM for video dynamics...
+2026-04-13 22:45:51.728 | INFO     | core.bgm_provider:_search_bgm_videos:71 - BGM search '终末地 OST 纯音乐': 4 suitable videos (from 20 total)
+2026-04-13 22:45:53.495 | INFO     | core.bgm_provider:_download_audio:122 - Downloaded BGM: BV17FD1BmE5c.mp4 (6.9MB)
+2026-04-13 22:45:55.506 | INFO     | __main__:run:248 - [Video 1/4] Publishing: 💙💗05605 ハンバーガー💗💙 (143517783)
+2026-04-13 22:45:55.508 | INFO     | core.video_generator:generate_video:188 - Video: 1080x1566, 1 image(s) x 10.0s
+2026-04-13 22:45:55.609 | INFO     | core.video_generator:generate_video:225 - Total video duration: 10.0s
+2026-04-13 22:45:55.666 | INFO     | core.video_generator:generate_video:238 - Added BGM: 《明日方舟：终末地 1.2 OST》「春晓时」1.2 PV「BGM」消人声完整版_BV17FD1BmE5c.mp3
+2026-04-13 22:46:15.641 | INFO     | core.video_generator:generate_video:251 - Video saved: D:\pixiv-to-bilibili\storage\videos\output.mp4 (4.3MB)
+2026-04-13 22:46:15.931 | ERROR    | core.bilibili_client:publish_video_dynamic:199 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 22:46:26.268 | ERROR    | core.bilibili_client:publish_video_dynamic:199 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 22:46:37.008 | ERROR    | core.bilibili_client:publish_video_dynamic:199 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 22:46:37.009 | ERROR    | core.bilibili_client:publish_video_dynamic:203 - All video upload attempts failed
+2026-04-13 22:46:37.010 | INFO     | __main__:run:253 - [Video 1/4] Published successfully
+2026-04-13 22:46:37.011 | INFO     | __main__:run:259 - Sleeping 60s before next publish...
+2026-04-13 22:47:37.011 | INFO     | __main__:run:248 - [Video 2/4] Publishing: ショアキ (143521562)
+2026-04-13 22:47:37.013 | INFO     | core.video_generator:generate_video:188 - Video: 1080x1296, 1 image(s) x 10.0s
+2026-04-13 22:47:37.127 | INFO     | core.video_generator:generate_video:225 - Total video duration: 10.0s
+2026-04-13 22:47:37.188 | INFO     | core.video_generator:generate_video:238 - Added BGM: 《明日方舟：终末地 1.2 OST》「春晓时」1.2 PV「BGM」消人声完整版_BV17FD1BmE5c.mp3
+2026-04-13 22:49:02.055 | INFO     | __main__:run:143 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 22:49:02.056 | INFO     | core.bilibili_client:load_credential:66 - Loaded saved Bilibili credential
+2026-04-13 22:49:02.074 | INFO     | core.pixiv_client:__init__:31 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 22:49:02.625 | INFO     | core.pixiv_client:authenticate:43 - Pixiv authenticated successfully
+2026-04-13 22:49:03.170 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from day ranking
+2026-04-13 22:49:03.170 | INFO     | core.pixiv_client:fetch_artworks:166 - After day ranking filter: 0 IP artworks
+2026-04-13 22:49:03.438 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from week ranking
+2026-04-13 22:49:03.439 | INFO     | core.pixiv_client:fetch_artworks:166 - After week ranking filter: 0 IP artworks
+2026-04-13 22:49:03.439 | INFO     | core.pixiv_client:fetch_artworks:170 - Ranking gave 0 works, searching by IP tags (popular)...
+2026-04-13 22:49:03.851 | INFO     | core.pixiv_client:search_by_tag:92 - Found 9 artworks for tag '崩壊：スターレイル' (sort=popular_desc)
+2026-04-13 22:49:03.851 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '崩壊：スターレイル': total = 9
+2026-04-13 22:49:04.228 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '原神' (sort=popular_desc)
+2026-04-13 22:49:04.229 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '原神': total = 19
+2026-04-13 22:49:04.538 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag 'ゼンレスゾーンゼロ' (sort=popular_desc)
+2026-04-13 22:49:04.539 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag 'ゼンレスゾーンゼロ': total = 29
+2026-04-13 22:49:04.831 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '終末地' (sort=popular_desc)
+2026-04-13 22:49:04.831 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '終末地': total = 39
+2026-04-13 22:49:05.116 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '鳴潮' (sort=popular_desc)
+2026-04-13 22:49:05.116 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '鳴潮': total = 49
+2026-04-13 22:49:05.117 | INFO     | core.pixiv_client:fetch_artworks:189 - Total unique artworks fetched: 49
+2026-04-13 22:49:05.122 | INFO     | __main__:run:161 - Already published 40 artworks on record
+2026-04-13 22:49:05.123 | INFO     | __main__:run:167 - Skipping already published: 無題 (143519611)
+2026-04-13 22:49:05.123 | INFO     | __main__:run:167 - Skipping already published: アナイクス (143519285)
+2026-04-13 22:49:05.123 | INFO     | __main__:run:167 - Skipping already published: 必死の覚悟　ホタル (143518032)
+2026-04-13 22:49:05.123 | INFO     | __main__:run:167 - Skipping already published: ほっぺつんつんされてるホタル (143515333)
+2026-04-13 22:49:05.123 | INFO     | __main__:run:167 - Skipping already published: トリスビアス (143513160)
+2026-04-13 22:49:05.123 | INFO     | __main__:run:167 - Skipping already published: 깨픆깩 (143510090)
+2026-04-13 22:49:05.123 | INFO     | __main__:run:167 - Skipping already published: Hoshimi Miyabi (143519575)
+2026-04-13 22:49:05.123 | INFO     | __main__:run:167 - Skipping already published: Cersea~ (143519314)
+2026-04-13 22:49:05.123 | INFO     | __main__:run:167 - Skipping already published: ザオちゃん　お人形さん (143518831)
+2026-04-13 22:49:05.123 | INFO     | __main__:run:167 - Skipping already published: フローライト (143509797)
+2026-04-13 22:49:05.123 | INFO     | __main__:run:167 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 22:49:05.123 | INFO     | __main__:run:167 - Skipping already published: 明日方舟终末地小红帽洛茜~QQ小鼻嘎~~ (143505301)
+2026-04-13 22:49:05.123 | INFO     | __main__:run:167 - Skipping already published: 年輕的巨獸代理人 (143497254)
+2026-04-13 22:49:05.123 | INFO     | __main__:run:167 - Skipping already published: 莊天師武陵一穿四🤩 (143485861)
+2026-04-13 22:49:05.124 | INFO     | __main__:run:167 - Skipping already published: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-13 22:49:05.124 | INFO     | __main__:run:167 - Skipping already published: ロッシ (143428804)
+2026-04-13 22:49:05.124 | INFO     | __main__:run:167 - Skipping already published: 🐧エンドフィールドの予告番組を見ながら管理人ちゃん描く配信🖤 (143419851)
+2026-04-13 22:49:05.124 | INFO     | __main__:run:167 - Skipping already published: 莫宁 (143519320)
+2026-04-13 22:49:05.124 | INFO     | __main__:run:167 - Skipping already published: 💙💗05605 ハンバーガー💗💙 (143517783)
+2026-04-13 22:49:05.124 | INFO     | __main__:run:167 - Skipping already published: 에이메스 / エイメス (143517014)
+2026-04-13 22:49:05.124 | INFO     | __main__:run:167 - Skipping already published: 無題 (143515796)
+2026-04-13 22:49:05.124 | INFO     | __main__:run:178 - Candidate artworks after filtering: 28
+2026-04-13 22:49:06.530 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143522141_0.jpg: score=0.0016 -> SAFE
+2026-04-13 22:49:08.479 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143522141_0.jpg: PASS, title=这小天使也太萌了, copy=True
+2026-04-13 22:49:12.897 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519340_0.jpg: score=0.0245 -> SAFE
+2026-04-13 22:49:15.846 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143519340_0.jpg: PASS, title=这身西装制服绝了, copy=True
+2026-04-13 22:49:20.349 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521547_0.jpg: score=0.0006 -> SAFE
+2026-04-13 22:49:23.367 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143521547_0.jpg: PASS, title=这身材绝了！, copy=True
+2026-04-13 22:49:30.896 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143520585_0.jpg: score=0.0198 -> SAFE
+2026-04-13 22:49:33.224 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143520585_0.jpg: PASS, title=这芙宁娜也太绝了, copy=True
+2026-04-13 22:49:33.225 | INFO     | __main__:run:211 - Ready to publish: 4 artworks (target: 0 image + 4 video)
+2026-04-13 22:49:33.225 | INFO     | __main__:run:244 - Fetching BGM for video dynamics...
+2026-04-13 22:49:33.986 | INFO     | core.bgm_provider:_search_bgm_videos:71 - BGM search 'HOYO-MiX 绝区零 纯音乐 BGM': 16 suitable videos (from 20 total)
+2026-04-13 22:49:36.035 | INFO     | core.bgm_provider:_download_audio:122 - Downloaded BGM: BV1TrvxeeEoE.mp4 (7.1MB)
+2026-04-13 22:49:37.839 | INFO     | __main__:run:248 - [Video 1/4] Publishing: 千夏 (143522141)
+2026-04-13 22:49:37.840 | INFO     | core.video_generator:generate_video:188 - Video: 1080x1670, 1 image(s) x 10.0s
+2026-04-13 22:49:37.945 | INFO     | core.video_generator:generate_video:225 - Total video duration: 10.0s
+2026-04-13 22:49:38.001 | INFO     | core.video_generator:generate_video:238 - Added BGM: 【绝区零】空洞&amp;战斗音乐拼接｜11号秘闻任务音乐_BV1TrvxeeEoE.mp3
+2026-04-13 22:49:59.192 | INFO     | core.video_generator:generate_video:251 - Video saved: D:\pixiv-to-bilibili\storage\videos\output.mp4 (4.9MB)
+2026-04-13 22:49:59.553 | ERROR    | core.bilibili_client:publish_video_dynamic:215 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 22:50:09.882 | ERROR    | core.bilibili_client:publish_video_dynamic:215 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 22:50:46.692 | INFO     | __main__:run:143 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 22:50:46.692 | INFO     | core.bilibili_client:load_credential:66 - Loaded saved Bilibili credential
+2026-04-13 22:50:46.715 | INFO     | core.pixiv_client:__init__:31 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 22:50:47.140 | INFO     | core.pixiv_client:authenticate:43 - Pixiv authenticated successfully
+2026-04-13 22:50:47.586 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from day ranking
+2026-04-13 22:50:47.586 | INFO     | core.pixiv_client:fetch_artworks:166 - After day ranking filter: 0 IP artworks
+2026-04-13 22:50:47.831 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from week ranking
+2026-04-13 22:50:47.831 | INFO     | core.pixiv_client:fetch_artworks:166 - After week ranking filter: 0 IP artworks
+2026-04-13 22:50:47.832 | INFO     | core.pixiv_client:fetch_artworks:170 - Ranking gave 0 works, searching by IP tags (popular)...
+2026-04-13 22:50:48.119 | INFO     | core.pixiv_client:search_by_tag:92 - Found 9 artworks for tag '崩壊：スターレイル' (sort=popular_desc)
+2026-04-13 22:50:48.120 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '崩壊：スターレイル': total = 9
+2026-04-13 22:50:48.389 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag 'ゼンレスゾーンゼロ' (sort=popular_desc)
+2026-04-13 22:50:48.389 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag 'ゼンレスゾーンゼロ': total = 19
+2026-04-13 22:50:48.961 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '原神' (sort=popular_desc)
+2026-04-13 22:50:48.961 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '原神': total = 29
+2026-04-13 22:50:49.195 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '終末地' (sort=popular_desc)
+2026-04-13 22:50:49.196 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '終末地': total = 39
+2026-04-13 22:50:49.434 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '鳴潮' (sort=popular_desc)
+2026-04-13 22:50:49.434 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '鳴潮': total = 49
+2026-04-13 22:50:49.434 | INFO     | core.pixiv_client:fetch_artworks:189 - Total unique artworks fetched: 49
+2026-04-13 22:50:49.434 | INFO     | __main__:run:161 - Already published 40 artworks on record
+2026-04-13 22:50:49.435 | INFO     | __main__:run:167 - Skipping already published: 無題 (143519611)
+2026-04-13 22:50:49.435 | INFO     | __main__:run:167 - Skipping already published: アナイクス (143519285)
+2026-04-13 22:50:49.435 | INFO     | __main__:run:167 - Skipping already published: 必死の覚悟　ホタル (143518032)
+2026-04-13 22:50:49.435 | INFO     | __main__:run:167 - Skipping already published: ほっぺつんつんされてるホタル (143515333)
+2026-04-13 22:50:49.435 | INFO     | __main__:run:167 - Skipping already published: トリスビアス (143513160)
+2026-04-13 22:50:49.435 | INFO     | __main__:run:167 - Skipping already published: 깨픆깩 (143510090)
+2026-04-13 22:50:49.435 | INFO     | __main__:run:167 - Skipping already published: Hoshimi Miyabi (143519575)
+2026-04-13 22:50:49.435 | INFO     | __main__:run:167 - Skipping already published: Cersea~ (143519314)
+2026-04-13 22:50:49.435 | INFO     | __main__:run:167 - Skipping already published: ザオちゃん　お人形さん (143518831)
+2026-04-13 22:50:49.435 | INFO     | __main__:run:167 - Skipping already published: フローライト (143509797)
+2026-04-13 22:50:49.435 | INFO     | __main__:run:167 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 22:50:49.435 | INFO     | __main__:run:167 - Skipping already published: 明日方舟终末地小红帽洛茜~QQ小鼻嘎~~ (143505301)
+2026-04-13 22:50:49.436 | INFO     | __main__:run:167 - Skipping already published: 年輕的巨獸代理人 (143497254)
+2026-04-13 22:50:49.436 | INFO     | __main__:run:167 - Skipping already published: 莊天師武陵一穿四🤩 (143485861)
+2026-04-13 22:50:49.436 | INFO     | __main__:run:167 - Skipping already published: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-13 22:50:49.436 | INFO     | __main__:run:167 - Skipping already published: ロッシ (143428804)
+2026-04-13 22:50:49.436 | INFO     | __main__:run:167 - Skipping already published: 🐧エンドフィールドの予告番組を見ながら管理人ちゃん描く配信🖤 (143419851)
+2026-04-13 22:50:49.436 | INFO     | __main__:run:167 - Skipping already published: 莫宁 (143519320)
+2026-04-13 22:50:49.436 | INFO     | __main__:run:167 - Skipping already published: 💙💗05605 ハンバーガー💗💙 (143517783)
+2026-04-13 22:50:49.436 | INFO     | __main__:run:167 - Skipping already published: 에이메스 / エイメス (143517014)
+2026-04-13 22:50:49.436 | INFO     | __main__:run:167 - Skipping already published: 無題 (143515796)
+2026-04-13 22:50:49.436 | INFO     | __main__:run:178 - Candidate artworks after filtering: 28
+2026-04-13 22:50:50.689 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521234_0.jpg: score=0.0211 -> SAFE
+2026-04-13 22:50:52.400 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143521234_0.jpg: PASS, title=芙宁娜这萌态绝了, copy=True
+2026-04-13 22:51:02.053 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_0.jpg: score=0.0974 -> SAFE
+2026-04-13 22:51:02.176 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_1.jpg: score=0.0041 -> SAFE
+2026-04-13 22:51:02.308 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_2.jpg: score=0.0061 -> SAFE
+2026-04-13 22:51:02.431 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_3.jpg: score=0.0005 -> SAFE
+2026-04-13 22:51:02.564 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_4.jpg: score=0.0132 -> SAFE
+2026-04-13 22:51:02.696 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_5.jpg: score=0.0185 -> SAFE
+2026-04-13 22:51:02.831 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_6.jpg: score=0.0037 -> SAFE
+2026-04-13 22:51:02.964 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_7.jpg: score=0.0237 -> SAFE
+2026-04-13 22:51:04.461 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143519851_0.jpg: PASS, title=芙宁娜这绝美眼神, copy=True
+2026-04-13 22:51:05.097 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521032_0.jpg: score=0.0096 -> SAFE
+2026-04-13 22:51:06.313 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143521032_0.jpg: PASS, title=芙宁娜这波操作绝了, copy=True
+2026-04-13 22:51:13.692 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143520608_0.jpg: score=0.4443 -> BORDERLINE
+2026-04-13 22:51:15.251 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143520608_0.jpg: PASS, title=这西装绝了, copy=True
+2026-04-13 22:51:15.253 | INFO     | __main__:run:211 - Ready to publish: 4 artworks (target: 0 image + 4 video)
+2026-04-13 22:51:15.254 | INFO     | __main__:run:244 - Fetching BGM for video dynamics...
+2026-04-13 22:51:16.016 | INFO     | core.bgm_provider:_search_bgm_videos:71 - BGM search '原神 纯音乐 背景音乐 钢琴曲': 14 suitable videos (from 20 total)
+2026-04-13 22:51:16.632 | INFO     | core.bgm_provider:_download_audio:122 - Downloaded BGM: BV1yEDXBmEj9.mp4 (2.8MB)
+2026-04-13 22:51:17.638 | INFO     | __main__:run:248 - [Video 1/4] Publishing: トリビー❀.*･ﾟ (143521234)
+2026-04-13 22:51:17.639 | INFO     | core.video_generator:generate_video:188 - Video: 1080x1454, 1 image(s) x 10.0s
+2026-04-13 22:51:17.716 | INFO     | core.video_generator:generate_video:225 - Total video duration: 10.0s
+2026-04-13 22:51:17.772 | INFO     | core.video_generator:generate_video:238 - Added BGM: 原神空之神殿绝美bgm(无所有廊-回忆)_BV1yEDXBmEj9.mp3
+2026-04-13 22:51:38.467 | INFO     | core.video_generator:generate_video:251 - Video saved: D:\pixiv-to-bilibili\storage\videos\output.mp4 (4.5MB)
+2026-04-13 22:51:38.781 | ERROR    | core.bilibili_client:publish_video_dynamic:215 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 22:51:49.089 | ERROR    | core.bilibili_client:publish_video_dynamic:215 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 22:51:59.682 | ERROR    | core.bilibili_client:publish_video_dynamic:215 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 22:51:59.682 | ERROR    | core.bilibili_client:publish_video_dynamic:219 - All video upload attempts failed
+2026-04-13 22:51:59.683 | INFO     | __main__:run:253 - [Video 1/4] Published successfully
+2026-04-13 22:51:59.683 | INFO     | __main__:run:259 - Sleeping 60s before next publish...
+2026-04-13 22:52:47.658 | INFO     | __main__:run:143 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 22:52:47.659 | INFO     | core.bilibili_client:load_credential:66 - Loaded saved Bilibili credential
+2026-04-13 22:52:47.679 | INFO     | core.pixiv_client:__init__:31 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 22:52:48.113 | INFO     | core.pixiv_client:authenticate:43 - Pixiv authenticated successfully
+2026-04-13 22:52:48.604 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from day ranking
+2026-04-13 22:52:48.605 | INFO     | core.pixiv_client:fetch_artworks:166 - After day ranking filter: 0 IP artworks
+2026-04-13 22:52:48.841 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from week ranking
+2026-04-13 22:52:48.841 | INFO     | core.pixiv_client:fetch_artworks:166 - After week ranking filter: 0 IP artworks
+2026-04-13 22:52:48.841 | INFO     | core.pixiv_client:fetch_artworks:170 - Ranking gave 0 works, searching by IP tags (popular)...
+2026-04-13 22:52:49.153 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag 'ゼンレスゾーンゼロ' (sort=popular_desc)
+2026-04-13 22:52:49.153 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag 'ゼンレスゾーンゼロ': total = 10
+2026-04-13 22:52:49.467 | INFO     | core.pixiv_client:search_by_tag:92 - Found 9 artworks for tag '崩壊：スターレイル' (sort=popular_desc)
+2026-04-13 22:52:49.467 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '崩壊：スターレイル': total = 19
+2026-04-13 22:52:49.727 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '終末地' (sort=popular_desc)
+2026-04-13 22:52:49.727 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '終末地': total = 29
+2026-04-13 22:52:49.985 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '鳴潮' (sort=popular_desc)
+2026-04-13 22:52:49.986 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '鳴潮': total = 39
+2026-04-13 22:52:50.279 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '原神' (sort=popular_desc)
+2026-04-13 22:52:50.279 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '原神': total = 49
+2026-04-13 22:52:50.280 | INFO     | core.pixiv_client:fetch_artworks:189 - Total unique artworks fetched: 49
+2026-04-13 22:52:50.285 | INFO     | __main__:run:161 - Already published 41 artworks on record
+2026-04-13 22:52:50.286 | INFO     | __main__:run:167 - Skipping already published: Hoshimi Miyabi (143519575)
+2026-04-13 22:52:50.286 | INFO     | __main__:run:167 - Skipping already published: Cersea~ (143519314)
+2026-04-13 22:52:50.286 | INFO     | __main__:run:167 - Skipping already published: ザオちゃん　お人形さん (143518831)
+2026-04-13 22:52:50.286 | INFO     | __main__:run:167 - Skipping already published: トリビー❀.*･ﾟ (143521234)
+2026-04-13 22:52:50.286 | INFO     | __main__:run:167 - Skipping already published: 無題 (143519611)
+2026-04-13 22:52:50.287 | INFO     | __main__:run:167 - Skipping already published: アナイクス (143519285)
+2026-04-13 22:52:50.287 | INFO     | __main__:run:167 - Skipping already published: 必死の覚悟　ホタル (143518032)
+2026-04-13 22:52:50.287 | INFO     | __main__:run:167 - Skipping already published: ほっぺつんつんされてるホタル (143515333)
+2026-04-13 22:52:50.287 | INFO     | __main__:run:167 - Skipping already published: トリスビアス (143513160)
+2026-04-13 22:52:50.287 | INFO     | __main__:run:167 - Skipping already published: 깨픆깩 (143510090)
+2026-04-13 22:52:50.287 | INFO     | __main__:run:167 - Skipping already published: フローライト (143509797)
+2026-04-13 22:52:50.288 | INFO     | __main__:run:167 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 22:52:50.288 | INFO     | __main__:run:167 - Skipping already published: 明日方舟终末地小红帽洛茜~QQ小鼻嘎~~ (143505301)
+2026-04-13 22:52:50.288 | INFO     | __main__:run:167 - Skipping already published: 年輕的巨獸代理人 (143497254)
+2026-04-13 22:52:50.289 | INFO     | __main__:run:167 - Skipping already published: 莊天師武陵一穿四🤩 (143485861)
+2026-04-13 22:52:50.289 | INFO     | __main__:run:167 - Skipping already published: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-13 22:52:50.289 | INFO     | __main__:run:167 - Skipping already published: ロッシ (143428804)
+2026-04-13 22:52:50.289 | INFO     | __main__:run:167 - Skipping already published: 🐧エンドフィールドの予告番組を見ながら管理人ちゃん描く配信🖤 (143419851)
+2026-04-13 22:52:50.289 | INFO     | __main__:run:167 - Skipping already published: 莫宁 (143519320)
+2026-04-13 22:52:50.290 | INFO     | __main__:run:167 - Skipping already published: 💙💗05605 ハンバーガー💗💙 (143517783)
+2026-04-13 22:52:50.290 | INFO     | __main__:run:167 - Skipping already published: 에이메스 / エイメス (143517014)
+2026-04-13 22:52:50.290 | INFO     | __main__:run:167 - Skipping already published: 無題 (143515796)
+2026-04-13 22:52:50.291 | INFO     | __main__:run:178 - Candidate artworks after filtering: 27
+2026-04-13 22:53:05.110 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_0.jpg: score=0.0974 -> SAFE
+2026-04-13 22:53:05.230 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_1.jpg: score=0.0041 -> SAFE
+2026-04-13 22:53:05.356 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_2.jpg: score=0.0061 -> SAFE
+2026-04-13 22:53:05.479 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_3.jpg: score=0.0005 -> SAFE
+2026-04-13 22:53:05.608 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_4.jpg: score=0.0132 -> SAFE
+2026-04-13 22:53:05.729 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_5.jpg: score=0.0185 -> SAFE
+2026-04-13 22:53:05.846 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_6.jpg: score=0.0037 -> SAFE
+2026-04-13 22:53:05.975 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143519851_7.jpg: score=0.0237 -> SAFE
+2026-04-13 22:53:07.596 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143519851_0.jpg: PASS, title=芙宁娜这绝美眼神, copy=True
+2026-04-13 22:53:10.556 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143522064_0.jpg: score=0.4386 -> BORDERLINE
+2026-04-13 22:53:10.678 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143522064_1.jpg: score=0.7043 -> BORDERLINE
+2026-04-13 22:53:10.801 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143522064_2.jpg: score=0.2153 -> SAFE
+2026-04-13 22:53:10.919 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143522064_3.jpg: score=0.4423 -> BORDERLINE
+2026-04-13 22:53:12.773 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143522064_0.jpg: REJECT, title=这腿谁顶得住啊, copy=True
+2026-04-13 22:53:12.774 | INFO     | __main__:run:202 - Rejected by content check: 【崩坏：星穹铁道】女友大作战！ - 身体比例严重失调，腿部和躯干比例夸张畸形，不符合正常动漫风格的夸张范围
+2026-04-13 22:53:13.497 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521961_0.jpg: score=0.0383 -> SAFE
+2026-04-13 22:53:14.962 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143521961_0.jpg: PASS, title=这福瑞老婆绝了, copy=True
+2026-04-13 22:53:15.637 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143522295_0.jpg: score=0.5069 -> BORDERLINE
+2026-04-13 22:53:17.057 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143522295_0.jpg: PASS, title=芙宁娜这身材绝了, copy=True
+2026-04-13 22:53:18.136 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143520608_0.jpg: score=0.4443 -> BORDERLINE
+2026-04-13 22:53:19.543 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143520608_0.jpg: PASS, title=这西装绝了, copy=True
+2026-04-13 22:53:19.545 | INFO     | __main__:run:211 - Ready to publish: 4 artworks (target: 0 image + 4 video)
+2026-04-13 22:53:19.546 | INFO     | __main__:run:244 - Fetching BGM for video dynamics...
+2026-04-13 22:53:20.224 | INFO     | core.bgm_provider:_search_bgm_videos:71 - BGM search '鸣潮 OST 纯音乐 BGM': 10 suitable videos (from 20 total)
+2026-04-13 22:53:21.102 | INFO     | core.bgm_provider:_download_audio:122 - Downloaded BGM: BV1Yk4y1V7Ba.mp4 (3.5MB)
+2026-04-13 22:53:21.877 | INFO     | __main__:run:248 - [Video 1/4] Publishing: Aemeath - Rain day (143519851)
+2026-04-13 22:53:21.878 | INFO     | core.video_generator:generate_video:188 - Video: 1080x1620, 1 image(s) x 10.0s
+2026-04-13 22:53:21.991 | INFO     | core.video_generator:generate_video:225 - Total video duration: 10.0s
+2026-04-13 22:53:22.054 | INFO     | core.video_generator:generate_video:238 - Added BGM: 《原神》过场动画「花神之舞」BGM《花与梦的祝诞》【Hi-Res百万级录音棚试听_BV1Yk4y1V7Ba.mp3
+2026-04-13 22:53:47.136 | INFO     | core.video_generator:generate_video:251 - Video saved: D:\pixiv-to-bilibili\storage\videos\output.mp4 (4.7MB)
+2026-04-13 22:53:47.528 | ERROR    | core.bilibili_client:publish_video_dynamic:215 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 22:53:57.806 | ERROR    | core.bilibili_client:publish_video_dynamic:215 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 22:54:08.093 | ERROR    | core.bilibili_client:publish_video_dynamic:215 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 22:54:08.094 | ERROR    | core.bilibili_client:publish_video_dynamic:219 - All video upload attempts failed
+2026-04-13 22:54:08.095 | INFO     | __main__:run:253 - [Video 1/4] Published successfully
+2026-04-13 22:54:08.095 | INFO     | __main__:run:259 - Sleeping 60s before next publish...
+2026-04-13 22:59:52.085 | INFO     | __main__:run:143 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 22:59:52.086 | INFO     | core.bilibili_client:load_credential:66 - Loaded saved Bilibili credential
+2026-04-13 22:59:52.105 | INFO     | core.pixiv_client:__init__:31 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 22:59:52.544 | INFO     | core.pixiv_client:authenticate:43 - Pixiv authenticated successfully
+2026-04-13 22:59:52.954 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from day ranking
+2026-04-13 22:59:52.954 | INFO     | core.pixiv_client:fetch_artworks:166 - After day ranking filter: 0 IP artworks
+2026-04-13 22:59:53.169 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from week ranking
+2026-04-13 22:59:53.169 | INFO     | core.pixiv_client:fetch_artworks:166 - After week ranking filter: 0 IP artworks
+2026-04-13 22:59:53.169 | INFO     | core.pixiv_client:fetch_artworks:170 - Ranking gave 0 works, searching by IP tags (popular)...
+2026-04-13 22:59:53.544 | INFO     | core.pixiv_client:search_by_tag:92 - Found 9 artworks for tag '崩壊：スターレイル' (sort=popular_desc)
+2026-04-13 22:59:53.545 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '崩壊：スターレイル': total = 9
+2026-04-13 22:59:53.810 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '原神' (sort=popular_desc)
+2026-04-13 22:59:53.811 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '原神': total = 19
+2026-04-13 22:59:54.035 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '終末地' (sort=popular_desc)
+2026-04-13 22:59:54.036 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '終末地': total = 29
+2026-04-13 22:59:54.273 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '鳴潮' (sort=popular_desc)
+2026-04-13 22:59:54.274 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '鳴潮': total = 39
+2026-04-13 22:59:54.540 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag 'ゼンレスゾーンゼロ' (sort=popular_desc)
+2026-04-13 22:59:54.541 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag 'ゼンレスゾーンゼロ': total = 49
+2026-04-13 22:59:54.541 | INFO     | core.pixiv_client:fetch_artworks:189 - Total unique artworks fetched: 49
+2026-04-13 22:59:54.542 | INFO     | __main__:run:161 - Already published 42 artworks on record
+2026-04-13 22:59:54.542 | INFO     | __main__:run:167 - Skipping already published: トリビー❀.*･ﾟ (143521234)
+2026-04-13 22:59:54.542 | INFO     | __main__:run:167 - Skipping already published: 無題 (143519611)
+2026-04-13 22:59:54.542 | INFO     | __main__:run:167 - Skipping already published: アナイクス (143519285)
+2026-04-13 22:59:54.542 | INFO     | __main__:run:167 - Skipping already published: 必死の覚悟　ホタル (143518032)
+2026-04-13 22:59:54.542 | INFO     | __main__:run:167 - Skipping already published: ほっぺつんつんされてるホタル (143515333)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: トリスビアス (143513160)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: 깨픆깩 (143510090)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: フローライト (143509797)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: 明日方舟终末地小红帽洛茜~QQ小鼻嘎~~ (143505301)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: 年輕的巨獸代理人 (143497254)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: 莊天師武陵一穿四🤩 (143485861)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: ロッシ (143428804)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: 🐧エンドフィールドの予告番組を見ながら管理人ちゃん描く配信🖤 (143419851)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: Aemeath - Rain day (143519851)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: 莫宁 (143519320)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: 💙💗05605 ハンバーガー💗💙 (143517783)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: 에이메스 / エイメス (143517014)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: 無題 (143515796)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: Hoshimi Miyabi (143519575)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: Cersea~ (143519314)
+2026-04-13 22:59:54.543 | INFO     | __main__:run:167 - Skipping already published: ザオちゃん　お人形さん (143518831)
+2026-04-13 22:59:54.545 | INFO     | __main__:run:178 - Candidate artworks after filtering: 26
+2026-04-13 22:59:56.324 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143522141_0.jpg: score=0.0016 -> SAFE
+2026-04-13 22:59:57.899 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143522141_0.jpg: PASS, title=这小天使也太萌了, copy=True
+2026-04-13 23:00:06.732 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521088_0.jpg: score=0.0642 -> SAFE
+2026-04-13 23:00:10.048 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143521088_0.jpg: PASS, title=这芙宁娜绝了, copy=True
+2026-04-13 23:00:12.023 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143516515_0.jpg: score=0.1028 -> SAFE
+2026-04-13 23:00:14.138 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143516515_0.jpg: PASS, title=这拥抱绝了, copy=True
+2026-04-13 23:00:17.151 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143522361_0.jpg: score=0.1309 -> SAFE
+2026-04-13 23:00:20.305 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143522361_0.jpg: PASS, title=这两位老婆也太萌了, copy=True
+2026-04-13 23:00:20.307 | INFO     | __main__:run:211 - Ready to publish: 4 artworks (target: 0 image + 4 video)
+2026-04-13 23:00:20.308 | INFO     | __main__:run:244 - Fetching BGM for video dynamics...
+2026-04-13 23:00:20.309 | INFO     | core.bgm_provider:fetch_bgm:167 - Using cached BGM: 《原神》过场动画「花神之舞」BGM《花与梦的祝诞》【Hi-Res百万级录音棚试听_BV1Yk4y1V7Ba.mp3
+2026-04-13 23:00:20.310 | INFO     | __main__:run:248 - [Video 1/4] Publishing: 千夏 (143522141)
+2026-04-13 23:00:20.310 | INFO     | core.video_generator:generate_video:188 - Video: 1080x1670, 1 image(s) x 10.0s
+2026-04-13 23:00:20.435 | INFO     | core.video_generator:generate_video:225 - Total video duration: 10.0s
+2026-04-13 23:00:20.501 | INFO     | core.video_generator:generate_video:238 - Added BGM: 《原神》过场动画「花神之舞」BGM《花与梦的祝诞》【Hi-Res百万级录音棚试听_BV1Yk4y1V7Ba.mp3
+2026-04-13 23:00:42.082 | INFO     | core.video_generator:generate_video:251 - Video saved: D:\pixiv-to-bilibili\storage\videos\output.mp4 (4.9MB)
+2026-04-13 23:00:42.253 | ERROR    | core.bilibili_client:publish_video_dynamic:216 - Failed to upload video: 网络错误，状态码：406 - Not Acceptable。
+2026-04-13 23:00:52.537 | ERROR    | core.bilibili_client:publish_video_dynamic:216 - Failed to upload video: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+2026-04-13 23:01:06.695 | INFO     | __main__:run:143 - === Pixiv to Bilibili Bot Started ===
+2026-04-13 23:01:06.696 | INFO     | core.bilibili_client:load_credential:66 - Loaded saved Bilibili credential
+2026-04-13 23:01:06.713 | INFO     | core.pixiv_client:__init__:31 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-13 23:01:07.178 | INFO     | core.pixiv_client:authenticate:43 - Pixiv authenticated successfully
+2026-04-13 23:01:07.591 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from day ranking
+2026-04-13 23:01:07.592 | INFO     | core.pixiv_client:fetch_artworks:166 - After day ranking filter: 0 IP artworks
+2026-04-13 23:01:07.797 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from week ranking
+2026-04-13 23:01:07.797 | INFO     | core.pixiv_client:fetch_artworks:166 - After week ranking filter: 0 IP artworks
+2026-04-13 23:01:07.797 | INFO     | core.pixiv_client:fetch_artworks:170 - Ranking gave 0 works, searching by IP tags (popular)...
+2026-04-13 23:01:08.027 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '終末地' (sort=popular_desc)
+2026-04-13 23:01:08.027 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '終末地': total = 10
+2026-04-13 23:01:08.328 | INFO     | core.pixiv_client:search_by_tag:92 - Found 9 artworks for tag '崩壊：スターレイル' (sort=popular_desc)
+2026-04-13 23:01:08.329 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '崩壊：スターレイル': total = 19
+2026-04-13 23:01:08.682 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '鳴潮' (sort=popular_desc)
+2026-04-13 23:01:08.683 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '鳴潮': total = 29
+2026-04-13 23:01:08.955 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '原神' (sort=popular_desc)
+2026-04-13 23:01:08.956 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '原神': total = 39
+2026-04-13 23:01:09.195 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag 'ゼンレスゾーンゼロ' (sort=popular_desc)
+2026-04-13 23:01:09.196 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag 'ゼンレスゾーンゼロ': total = 49
+2026-04-13 23:01:09.196 | INFO     | core.pixiv_client:fetch_artworks:189 - Total unique artworks fetched: 49
+2026-04-13 23:01:09.196 | INFO     | __main__:run:161 - Already published 42 artworks on record
+2026-04-13 23:01:09.196 | INFO     | __main__:run:167 - Skipping already published: フローライト (143509797)
+2026-04-13 23:01:09.196 | INFO     | __main__:run:167 - Skipping already published: 草地洛茜 (143506934)
+2026-04-13 23:01:09.196 | INFO     | __main__:run:167 - Skipping already published: 明日方舟终末地小红帽洛茜~QQ小鼻嘎~~ (143505301)
+2026-04-13 23:01:09.196 | INFO     | __main__:run:167 - Skipping already published: 年輕的巨獸代理人 (143497254)
+2026-04-13 23:01:09.196 | INFO     | __main__:run:167 - Skipping already published: 莊天師武陵一穿四🤩 (143485861)
+2026-04-13 23:01:09.197 | INFO     | __main__:run:167 - Skipping already published: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-13 23:01:09.197 | INFO     | __main__:run:167 - Skipping already published: ロッシ (143428804)
+2026-04-13 23:01:09.197 | INFO     | __main__:run:167 - Skipping already published: 🐧エンドフィールドの予告番組を見ながら管理人ちゃん描く配信🖤 (143419851)
+2026-04-13 23:01:09.197 | INFO     | __main__:run:167 - Skipping already published: トリビー❀.*･ﾟ (143521234)
+2026-04-13 23:01:09.197 | INFO     | __main__:run:167 - Skipping already published: 無題 (143519611)
+2026-04-13 23:01:09.197 | INFO     | __main__:run:167 - Skipping already published: アナイクス (143519285)
+2026-04-13 23:01:09.197 | INFO     | __main__:run:167 - Skipping already published: 必死の覚悟　ホタル (143518032)
+2026-04-13 23:01:09.197 | INFO     | __main__:run:167 - Skipping already published: ほっぺつんつんされてるホタル (143515333)
+2026-04-13 23:01:09.198 | INFO     | __main__:run:167 - Skipping already published: トリスビアス (143513160)
+2026-04-13 23:01:09.198 | INFO     | __main__:run:167 - Skipping already published: 깨픆깩 (143510090)
+2026-04-13 23:01:09.198 | INFO     | __main__:run:167 - Skipping already published: Aemeath - Rain day (143519851)
+2026-04-13 23:01:09.198 | INFO     | __main__:run:167 - Skipping already published: 莫宁 (143519320)
+2026-04-13 23:01:09.198 | INFO     | __main__:run:167 - Skipping already published: 💙💗05605 ハンバーガー💗💙 (143517783)
+2026-04-13 23:01:09.198 | INFO     | __main__:run:167 - Skipping already published: 에이메스 / エイメス (143517014)
+2026-04-13 23:01:09.198 | INFO     | __main__:run:167 - Skipping already published: 無題 (143515796)
+2026-04-13 23:01:09.198 | INFO     | __main__:run:167 - Skipping already published: Hoshimi Miyabi (143519575)
+2026-04-13 23:01:09.198 | INFO     | __main__:run:167 - Skipping already published: Cersea~ (143519314)
+2026-04-13 23:01:09.198 | INFO     | __main__:run:167 - Skipping already published: ザオちゃん　お人形さん (143518831)
+2026-04-13 23:01:09.198 | INFO     | __main__:run:178 - Candidate artworks after filtering: 26
+2026-04-13 23:01:16.471 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521088_0.jpg: score=0.0642 -> SAFE
+2026-04-13 23:01:19.831 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143521088_0.jpg: PASS, title=这芙宁娜绝了, copy=True
+2026-04-13 23:01:21.095 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521961_0.jpg: score=0.0383 -> SAFE
+2026-04-13 23:01:22.711 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143521961_0.jpg: PASS, title=这福瑞老婆绝了, copy=True
+2026-04-13 23:01:30.293 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521105_0.jpg: score=0.0201 -> SAFE
+2026-04-13 23:01:30.498 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521105_1.jpg: score=0.0116 -> SAFE
+2026-04-13 23:01:30.653 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521105_2.jpg: score=0.0062 -> SAFE
+2026-04-13 23:01:30.792 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521105_3.jpg: score=0.0674 -> SAFE
+2026-04-13 23:01:30.976 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521105_4.jpg: score=0.0143 -> SAFE
+2026-04-13 23:01:31.124 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521105_5.jpg: score=0.0046 -> SAFE
+2026-04-13 23:01:31.322 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521105_6.jpg: score=0.0040 -> SAFE
+2026-04-13 23:01:31.485 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521105_7.jpg: score=0.0761 -> SAFE
+2026-04-13 23:01:33.201 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143521105_0.jpg: PASS, title=这芙宁娜也太绝了, copy=True
+2026-04-13 23:01:34.164 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521016_0.jpg: score=0.4533 -> BORDERLINE
+2026-04-13 23:01:36.097 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143521016_0.jpg: PASS, title=这骑马CP也太甜了吧, copy=True
+2026-04-13 23:01:36.099 | INFO     | __main__:run:211 - Ready to publish: 4 artworks (target: 0 image + 4 video)
+2026-04-13 23:01:36.099 | INFO     | __main__:run:244 - Fetching BGM for video dynamics...
+2026-04-13 23:01:36.101 | INFO     | core.bgm_provider:fetch_bgm:167 - Using cached BGM: 《原神》过场动画「花神之舞」BGM《花与梦的祝诞》【Hi-Res百万级录音棚试听_BV1Yk4y1V7Ba.mp3
+2026-04-13 23:01:36.101 | INFO     | __main__:run:248 - [Video 1/4] Publishing: 【鳴潮】シグリカ/西格莉卡 (143521088)
+2026-04-13 23:01:36.101 | INFO     | core.video_generator:generate_video:188 - Video: 1080x1920, 1 image(s) x 10.0s
+2026-04-13 23:01:36.662 | INFO     | core.video_generator:generate_video:225 - Total video duration: 10.0s
+2026-04-13 23:01:36.752 | INFO     | core.video_generator:generate_video:238 - Added BGM: 《原神》过场动画「花神之舞」BGM《花与梦的祝诞》【Hi-Res百万级录音棚试听_BV1Yk4y1V7Ba.mp3
+2026-04-13 23:02:54.614 | INFO     | core.video_generator:generate_video:251 - Video saved: D:\pixiv-to-bilibili\storage\videos\output.mp4 (3.3MB)
+2026-04-13 23:02:54.801 | ERROR    | core.bilibili_client:publish_video_dynamic:216 - Failed to upload video: 网络错误，状态码：406 - Not Acceptable。
+2026-04-14 09:06:53.138 | INFO     | __main__:run:143 - === Pixiv to Bilibili Bot Started ===
+2026-04-14 09:06:53.143 | INFO     | core.bilibili_client:load_credential:66 - Loaded saved Bilibili credential
+2026-04-14 09:06:53.181 | INFO     | core.pixiv_client:__init__:31 - Pixiv proxy set: http://127.0.0.1:7897
+2026-04-14 09:06:53.639 | INFO     | core.pixiv_client:authenticate:43 - Pixiv authenticated successfully
+2026-04-14 09:06:54.040 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from day ranking
+2026-04-14 09:06:54.040 | INFO     | core.pixiv_client:fetch_artworks:166 - After day ranking filter: 0 IP artworks
+2026-04-14 09:06:54.257 | INFO     | core.pixiv_client:get_ranking:70 - Fetched 16 artworks from week ranking
+2026-04-14 09:06:54.257 | INFO     | core.pixiv_client:fetch_artworks:166 - After week ranking filter: 0 IP artworks
+2026-04-14 09:06:54.257 | INFO     | core.pixiv_client:fetch_artworks:170 - Ranking gave 0 works, searching by IP tags (popular)...
+2026-04-14 09:06:54.533 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '鳴潮' (sort=popular_desc)
+2026-04-14 09:06:54.533 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '鳴潮': total = 10
+2026-04-14 09:06:54.783 | INFO     | core.pixiv_client:search_by_tag:92 - Found 5 artworks for tag '原神' (sort=popular_desc)
+2026-04-14 09:06:54.784 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '原神': total = 15
+2026-04-14 09:06:55.046 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag 'ゼンレスゾーンゼロ' (sort=popular_desc)
+2026-04-14 09:06:55.046 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag 'ゼンレスゾーンゼロ': total = 25
+2026-04-14 09:06:55.342 | INFO     | core.pixiv_client:search_by_tag:92 - Found 9 artworks for tag '崩壊：スターレイル' (sort=popular_desc)
+2026-04-14 09:06:55.342 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '崩壊：スターレイル': total = 33
+2026-04-14 09:06:55.570 | INFO     | core.pixiv_client:search_by_tag:92 - Found 10 artworks for tag '終末地' (sort=popular_desc)
+2026-04-14 09:06:55.570 | INFO     | core.pixiv_client:fetch_artworks:177 -   Tag '終末地': total = 43
+2026-04-14 09:06:55.570 | INFO     | core.pixiv_client:fetch_artworks:189 - Total unique artworks fetched: 43
+2026-04-14 09:06:55.576 | INFO     | __main__:run:161 - Already published 42 artworks on record
+2026-04-14 09:06:55.576 | INFO     | __main__:run:167 - Skipping already published: トリビー❀.*･ﾟ (143521234)
+2026-04-14 09:06:55.577 | INFO     | __main__:run:167 - Skipping already published: フローライト (143509797)
+2026-04-14 09:06:55.577 | INFO     | __main__:run:167 - Skipping already published: 草地洛茜 (143506934)
+2026-04-14 09:06:55.577 | INFO     | __main__:run:167 - Skipping already published: 明日方舟终末地小红帽洛茜~QQ小鼻嘎~~ (143505301)
+2026-04-14 09:06:55.577 | INFO     | __main__:run:167 - Skipping already published: 年輕的巨獸代理人 (143497254)
+2026-04-14 09:06:55.577 | INFO     | __main__:run:167 - Skipping already published: 莊天師武陵一穿四🤩 (143485861)
+2026-04-14 09:06:55.577 | INFO     | __main__:run:167 - Skipping already published: 庄方宜/Zhuangfangyi/ゾアン・ファンイ(Endfie (143440299)
+2026-04-14 09:06:55.577 | INFO     | __main__:run:167 - Skipping already published: ロッシ (143428804)
+2026-04-14 09:06:55.577 | INFO     | __main__:run:167 - Skipping already published: 🐧エンドフィールドの予告番組を見ながら管理人ちゃん描く配信🖤 (143419851)
+2026-04-14 09:06:55.577 | INFO     | __main__:run:178 - Candidate artworks after filtering: 34
+2026-04-14 09:06:57.186 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143532536_0.jpg: score=0.0198 -> SAFE
+2026-04-14 09:06:58.828 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143532536_0.jpg: PASS, title=这个芙宁娜也太绝了, copy=True
+2026-04-14 09:06:59.700 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143526279_0.jpg: score=0.0302 -> SAFE
+2026-04-14 09:07:03.071 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143526279_0.jpg: PASS, title=这腹肌绝了, copy=True
+2026-04-14 09:07:07.915 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143527524_0.jpg: score=0.2483 -> SAFE
+2026-04-14 09:07:08.044 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143527524_1.jpg: score=0.2023 -> SAFE
+2026-04-14 09:07:10.924 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143527524_0.jpg: PASS, title=这腿谁顶得住啊, copy=True
+2026-04-14 09:07:11.937 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143527983_0.jpg: score=0.0008 -> SAFE
+2026-04-14 09:07:14.015 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143527983_0.jpg: PASS, title=这女仆绝了, copy=True
+2026-04-14 09:07:23.954 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143534329_0.jpg: score=0.0651 -> SAFE
+2026-04-14 09:07:24.155 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143534329_1.jpg: score=0.0743 -> SAFE
+2026-04-14 09:07:24.248 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143534329_2.jpg: score=0.0277 -> SAFE
+2026-04-14 09:07:29.795 | WARNING  | core.content_checker:check_and_generate:123 - DashScope API call failed for 143534329_0.jpg: 400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
+2026-04-14 09:07:30.530 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143533745_0.jpg: score=0.0056 -> SAFE
+2026-04-14 09:07:32.054 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143533745_0.jpg: PASS, title=这睡衣萌化了, copy=True
+2026-04-14 09:07:32.633 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143536054_0.jpg: score=0.0003 -> SAFE
+2026-04-14 09:07:33.853 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143536054_0.jpg: REJECT, title=, copy=False
+2026-04-14 09:07:33.855 | INFO     | __main__:run:202 - Rejected by content check: アース・デイ! - 整体画工粗糙，线条不流畅，色彩不协调，属于低质量AI生成或草稿状态
+2026-04-14 09:07:37.222 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143524584_0.jpg: score=0.6479 -> BORDERLINE
+2026-04-14 09:07:39.263 | WARNING  | core.content_checker:check_and_generate:123 - DashScope API call failed for 143524584_0.jpg: 400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions
+2026-04-14 09:07:40.238 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143534636_0.jpg: score=0.0067 -> SAFE
+2026-04-14 09:07:42.226 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143534636_0.jpg: PASS, title=这芙宁娜也太萌了, copy=True
+2026-04-14 09:07:43.178 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143526963_0.jpg: score=0.0011 -> SAFE
+2026-04-14 09:07:44.805 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143526963_0.jpg: PASS, title=这绿发小天使绝了, copy=True
+2026-04-14 09:07:46.623 | INFO     | core.safety_checker:check_images:46 - [NSFW] 143521562_0.jpg: score=0.0219 -> SAFE
+2026-04-14 09:07:48.919 | INFO     | core.content_checker:check_and_generate:140 - [CheckAndGen] 143521562_0.jpg: PASS, title=这芙宁娜绝了, copy=True
+2026-04-14 09:07:48.921 | INFO     | __main__:run:211 - Ready to publish: 10 artworks (target: 10 image + 0 video)
+2026-04-14 09:07:48.921 | INFO     | __main__:run:227 - [Image 1/10] Publishing: 本日は、椿 スマホ壁紙でございます😘 (143532536)
+2026-04-14 09:07:50.121 | INFO     | core.bilibili_client:publish_image_dynamic:135 - Published image dynamic: id=unknown
+2026-04-14 09:07:50.122 | INFO     | __main__:run:232 - [Image 1/10] Published successfully
+2026-04-14 09:07:50.122 | INFO     | __main__:run:238 - Sleeping 60s before next publish...
+2026-04-14 09:08:50.123 | INFO     | __main__:run:227 - [Image 2/10] Publishing: Wolfguard (143526279)
+2026-04-14 09:08:56.047 | INFO     | core.bilibili_client:publish_image_dynamic:135 - Published image dynamic: id=unknown
+2026-04-14 09:08:56.047 | INFO     | __main__:run:232 - [Image 2/10] Published successfully
+2026-04-14 09:08:56.047 | INFO     | __main__:run:238 - Sleeping 60s before next publish...
+2026-04-14 09:09:56.049 | INFO     | __main__:run:227 - [Image 3/10] Publishing: Chisa (143527524)
+2026-04-14 09:10:00.221 | INFO     | core.bilibili_client:publish_image_dynamic:135 - Published image dynamic: id=unknown
+2026-04-14 09:10:00.222 | INFO     | __main__:run:232 - [Image 3/10] Published successfully
+2026-04-14 09:10:00.223 | INFO     | __main__:run:238 - Sleeping 60s before next publish...
+2026-04-14 09:11:00.224 | INFO     | __main__:run:227 - [Image 4/10] Publishing: 11号 (143527983)
+2026-04-14 09:11:03.043 | INFO     | core.bilibili_client:publish_image_dynamic:135 - Published image dynamic: id=unknown
+2026-04-14 09:11:03.044 | INFO     | __main__:run:232 - [Image 4/10] Published successfully
+2026-04-14 09:11:03.044 | INFO     | __main__:run:238 - Sleeping 60s before next publish...
+2026-04-14 09:12:03.045 | INFO     | __main__:run:227 - [Image 5/10] Publishing: Moon (143534329)
+2026-04-14 09:12:08.208 | WARNING  | core.bilibili_client:publish_image_dynamic:138 - Publish attempt 1/3 timed out
+2026-04-14 09:12:08.209 | INFO     | core.bilibili_client:publish_image_dynamic:140 - Retrying in 10s...
+2026-04-14 09:12:24.218 | WARNING  | core.bilibili_client:publish_image_dynamic:138 - Publish attempt 2/3 timed out
+2026-04-14 09:12:24.218 | INFO     | core.bilibili_client:publish_image_dynamic:140 - Retrying in 10s...
+2026-04-14 09:12:40.219 | WARNING  | core.bilibili_client:publish_image_dynamic:138 - Publish attempt 3/3 timed out
+2026-04-14 09:12:40.219 | ERROR    | core.bilibili_client:publish_image_dynamic:149 - All publish attempts failed
+2026-04-14 09:12:40.221 | INFO     | __main__:run:232 - [Image 5/10] Published successfully
+2026-04-14 09:12:40.221 | INFO     | __main__:run:238 - Sleeping 60s before next publish...
+2026-04-14 09:13:40.222 | INFO     | __main__:run:227 - [Image 6/10] Publishing: 一緒に寝ようね (143533745)
+2026-04-14 09:13:41.549 | INFO     | core.bilibili_client:publish_image_dynamic:135 - Published image dynamic: id=unknown
+2026-04-14 09:13:41.549 | INFO     | __main__:run:232 - [Image 6/10] Published successfully
+2026-04-14 09:13:41.550 | INFO     | __main__:run:238 - Sleeping 60s before next publish...
+2026-04-14 09:14:41.551 | INFO     | __main__:run:227 - [Image 7/10] Publishing: Denia "Eyes on me" (143524584)
+2026-04-14 09:14:47.214 | WARNING  | core.bilibili_client:publish_image_dynamic:138 - Publish attempt 1/3 timed out
+2026-04-14 09:14:47.214 | INFO     | core.bilibili_client:publish_image_dynamic:140 - Retrying in 10s...
+2026-04-14 09:15:04.766 | INFO     | core.bilibili_client:publish_image_dynamic:135 - Published image dynamic: id=unknown
+2026-04-14 09:15:04.767 | INFO     | __main__:run:232 - [Image 7/10] Published successfully
+2026-04-14 09:15:04.768 | INFO     | __main__:run:238 - Sleeping 60s before next publish...
+2026-04-14 09:16:04.769 | INFO     | __main__:run:227 - [Image 8/10] Publishing: 雪振る日に (143534636)
+2026-04-14 09:16:06.347 | INFO     | core.bilibili_client:publish_image_dynamic:135 - Published image dynamic: id=unknown
+2026-04-14 09:16:06.348 | INFO     | __main__:run:232 - [Image 8/10] Published successfully
+2026-04-14 09:16:06.348 | INFO     | __main__:run:238 - Sleeping 60s before next publish...
+2026-04-14 09:17:06.349 | INFO     | __main__:run:227 - [Image 9/10] Publishing: 千夏-Sunna (143526963)
+2026-04-14 09:17:07.370 | INFO     | core.bilibili_client:publish_image_dynamic:135 - Published image dynamic: id=unknown
+2026-04-14 09:17:07.371 | INFO     | __main__:run:232 - [Image 9/10] Published successfully
+2026-04-14 09:17:07.371 | INFO     | __main__:run:238 - Sleeping 60s before next publish...
+2026-04-14 09:18:07.372 | INFO     | __main__:run:227 - [Image 10/10] Publishing: ショアキ (143521562)
+2026-04-14 09:18:08.837 | INFO     | core.bilibili_client:publish_image_dynamic:135 - Published image dynamic: id=unknown
+2026-04-14 09:18:08.838 | INFO     | __main__:run:232 - [Image 10/10] Published successfully
+2026-04-14 09:18:08.838 | INFO     | __main__:run:262 - === Bot Finished: published 10 dynamics ===
